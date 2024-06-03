@@ -1,0 +1,101 @@
+:root {
+    --color-main: #4db691;
+    --color-main-dark: #2b3a35;
+    --color-bg: #202228;
+    --color-disabled: #888;
+    --color-red: #ff4242;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    white-space-collapse: discard;
+}
+
+#wrapper {
+    max-width: 1280px;
+    margin: auto;
+}
+
+main {
+    max-width: 920px;
+    margin-right: 40px;
+}
+
+aside {
+    max-width: 320px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-main);
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: var(--color-main);
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-main);
+}
+
+hr {
+    border: 1px dashed var(--color-main);
+}
+
+footer {
+    min-height: 350px;
+    margin-top: 100px;
+    background-color: var(--color-bg);
+}
+
+@media only screen and (max-width: 920px) {
+    aside {
+        max-width: 100%;
+    }
+    footer {
+        padding-top: 15px;
+        min-height: min-content;
+    }
+    h1 {
+        margin: auto;
+        max-width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    main, aside {
+        max-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+}

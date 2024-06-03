@@ -1,0 +1,37 @@
+.btn-small {
+    border-radius: 10px;
+    width: auto;
+    padding: 10px 25px;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    display: block;
+    background-color: var(--color-main);
+    color: var(--color-bg);
+    transition: 0.35s ease filter;
+}
+
+.btn-small:hover {
+    filter: brightness(120%);
+}
+
+.btn-rounded {
+    border-radius: 30px;
+    width: auto;
+    padding: 12px 35px;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    display: block;
+    background-color: var(--color-main);
+    color: var(--color-bg);
+    transition: 0.35s ease filter;
+}
+
+.btn-rounded:hover {
+    filter: brightness(120%);
+}

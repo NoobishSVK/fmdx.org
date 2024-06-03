@@ -1,0 +1,19 @@
+article { 
+    margin-bottom: 40px;
+}
+
+article .panel-title {
+    background-size: cover;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+    padding: 20px 40px;
+}
+
+article .article-content {
+    padding: 20px 40px;
+}
+
+article h2 {
+    margin: 0;
+    color: white;
+}

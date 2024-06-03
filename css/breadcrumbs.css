@@ -1,0 +1,20 @@
+.tx-icon {
+    width: 200px;
+    height: 180px;
+    background-image: url('/img/tx.png');
+    background-repeat: no-repeat;
+    background-position: center 100%;
+}
+
+.mission-banner {
+    padding: 30px 100px;
+}
+
+@media only screen and (max-width: 920px) {
+    .tx-icon {
+        display: none;
+    }
+    .mission-banner {
+        padding: 15px 30px;
+    }
+}
