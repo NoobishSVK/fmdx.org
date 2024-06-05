@@ -19,11 +19,11 @@
     <meta name="twitter:description" content="Explore the community-driven projects and solutions for FM DXing. Join us today!">
     <meta name="twitter:image" content="https://fmdx.org/img/og-image.jpg">
     
-    <link rel="icon" href="https://fmdx.org/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://fmdx.org/img/favicon.png" type="image/png">
     <style>
     /* Critical CSS here */
     </style>
     <link rel="stylesheet" href="/css/entry.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="/css/entry.css"></noscript>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
