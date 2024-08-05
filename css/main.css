@@ -19,7 +19,6 @@ body {
     background-position: center;
     background-attachment: fixed;
     color: white;
-    white-space-collapse: discard;
 }
 
 #wrapper {
@@ -29,7 +28,7 @@ body {
 
 main {
     max-width: 920px;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 aside {

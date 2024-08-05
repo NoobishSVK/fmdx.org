@@ -39,7 +39,7 @@ $array_length = count($dataset);
         <p class="m-0">~ coming soon ~</p>
         <br>
         <a href="/supportus.php"><button class="btn-small m-auto">DONATE</button></a>
-        <p style="font-size: 14px"><a href="#"><span class="color-main">[ </span>How we use your donations<span class="color-main"> ]</span></a></p>
+        <p style="font-size: 14px"><a href="/supportus.php"><span class="color-main">[ </span>How we use your donations<span class="color-main"> ]</span></a></p>
     </div>
 
     <div class="panel panel-small">

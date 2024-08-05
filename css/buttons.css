@@ -11,6 +11,7 @@
     background-color: var(--color-main);
     color: var(--color-bg);
     transition: 0.35s ease filter;
+    text-transform: uppercase;
 }
 
 .btn-small:hover {

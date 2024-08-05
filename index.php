@@ -10,7 +10,7 @@
             </div>
             <div class="flex-container">
                 <main>
-                    <div class="panel panel-big text-center mission-banner">
+                    <div class="panel panel-big text-center mission-banner" style="margin-bottom: 20px">
                         <p>Welcome to <span class="color-main text-bold">FMDX.org</span>, the hub for our worldwide community of DXers dedicated to open-source projects.</p>
 
                         <p>Our community firmly believes in the <span class="text-bold">freedom of DXing</span>, ensuring that it remains accessible to all enthusiasts.
@@ -19,10 +19,9 @@
 
                         <p class="text-medium">Come join us as we work to make DXing easy, collaborative, and open for all!</p>
 
-                        <a href="/ourmission.php"><div class="btn-small" style="width: 250px;margin: auto;">Our Mission</div></a>
+                        <a href="/ourmission.php"><div class="btn-small" style="width: 250px;margin: auto;text-transform: uppercase;">Our Mission</div></a>
                     </div>
 
-                    <h2 style="margin-bottom: 0;">News</h2>
                     <article class="panel panel-big">
                         <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/TZf635l.png');">
                             <div style="width: 100%;">
