@@ -12,9 +12,9 @@
             <ul>
                 <li>Hardware <i class="fa-solid fa-chevron-right text-small" style="right: 15px; top:15px; position:absolute;"></i>
                     <ul>
-                        <li class="disabled">ESP32 DAB Tuner</li>
+                        <li><a href="/projects/esp32-dab.php">ESP32 DAB+ Tuner</a></li>
                         <li><a href="/projects/tef6686-esp32.php">ESP32 TEF FM Tuner</a></li>
-                        <li class="disabled">Headless TEF Tuner</li>
+                        <li><a href="/projects/headless-tef.php">Headless TEF Tuner</a></li>
                     </ul>
                 </li>
                 <li>Software <i class="fa-solid fa-chevron-right text-small" style="right: 15px; top:15px; position:absolute;"></i>
@@ -65,9 +65,9 @@
         <li class="menu-item">
             <div class="onclick-menu">Projects  <i class="fa-solid fa-chevron-down m-left-10"></i></div>
             <ul class="onclick-menu-content">
-                <li class="disabled">ESP32 DAB Tuner</li>
+                <li><a href="/projects/esp32-dab.php">ESP32 DAB+ Tuner</a></li>
                 <li><a href="/projects/tef6686-esp32.php">ESP32 TEF FM Tuner</a></li>
-                <li class="disabled">Headless TEF Tuner</li>
+                <li><a href="/projects/headless-tef.php">Headless TEF Tuner</a></li>
                 <li></li>
                 <li><a href="/projects/webserver.php">FM-DX Webserver</a></li>
                 <li><a href="/projects/xdr-gtk.php">XDR-GTK</a></li>

@@ -13,9 +13,9 @@
             <h4>Projects</h4>
             <ul>
                 <li class="text-bold color-main">Hardware</li>
-                <li class="disabled">ESP32 DAB Tuner</li>
+                <li><a href="/projects/esp32-dab.php">ESP32 DAB+ Tuner</a></li>
                 <li><a href="/projects/tef6686-esp32.php">ESP32 TEF FM Tuner</a></li>
-                <li class="disabled">Headless TEF Tuner</li>
+                <li><a href="/projects/headless-tef.php">Headless TEF Tuner</a></li>
                 <li>&nbsp;</li>
                 <li class="text-bold color-main">Software</li>
                 <li><a href="/projects/webserver.php">FM-DX Webserver</a></li>

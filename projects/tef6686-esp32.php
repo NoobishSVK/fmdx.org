@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-    $pageTitle = 'FM-DX Webserver';
+    $pageTitle = 'TEF6686 ESP32 Tuner';
     include($_SERVER['DOCUMENT_ROOT'].'/includes/header.php');
     ?>
     <body>
@@ -25,9 +25,9 @@
                         <img src="/img/projects/tef_esp/tef6686_portable.jpg" width="80%" alt="TEF6686 portable version example">
                         <p class="text-left">Later on, Chinese hardware manufacturers have decided to use this open-source project to build their own tuners, which are now sold worldwide. The firmware is actively being developed by the FMDX community to this day.</p>
                         <br>
-                        <p>The current firmware version is <span class="color-main text-bold">v2.00</span>, with betas available on our Discord community server.</p>
+                        <p>The current firmware version is <span class="color-main text-bold">v2.11</span>, with betas available on our Discord community server.</p>
 
-                        <a href="https://github.com/PE5PVB/TEF6686_ESP32/releases/tag/v2.00" target="_blank"><button class="btn-small m-auto">Download latest firmware</button></a>
+                        <a href="https://github.com/PE5PVB/TEF6686_ESP32/releases/" target="_blank"><button class="btn-small m-auto">Download latest firmware</button></a>
                         <br>
                         <a href="https://github.com/PE5PVB/TEF6686_ESP32/" target="_blank">Source code</a> • 
                         <a href="https://www.pe5pvb.nl/tef6686/" target="_blank">More info & hardware schemas</a>

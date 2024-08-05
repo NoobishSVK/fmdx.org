@@ -9,7 +9,7 @@ $panels = [
     '<div class="panel panel-small link-external panel-small-extended">
         <h2 class="heading-slim">Headless TEF Receiver</h2>
         <p class="p-side-20 text-center">Embrace the revolution of standalone receivers with a modern & sleek module.</p>
-        <div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div>
+        <a href="/projects/headless-tef.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
     </div>',
     '<div class="panel panel-small link-external panel-small-extended">
         <h2 class="heading-slim">TEF ESP32 Receiver</h2>
@@ -29,7 +29,7 @@ $panels = [
     '<div class="panel panel-small link-external panel-small-extended">
         <h2 class="heading-slim">FM-DX Tuner</h2>
         <p class="p-side-20 text-center">Lightweight firmware for TEF/XDR receivers with advanced RDS.</p>
-        <div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div>
+        <div class="disabled link-external-button" style="background-color: #444 !important; cursor: disabled !important;"><i class="fa-solid fa-chevron-right p-5"></i></div>
     </div>'
 ];
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-    $pageTitle = 'FM-DX Webserver';
+    $pageTitle = 'XDR-GTK';
     include($_SERVER['DOCUMENT_ROOT'].'/includes/header.php');
     ?>
     <body>

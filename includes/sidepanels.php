@@ -45,13 +45,19 @@ $array_length = count($dataset);
     <div class="panel panel-small">
         <h2>FMDX Partners</h2>
         <p class="m-5">
-            <a href="https://fmlist.org" target="_blank">🇩🇪 FMLIST <span class="color-gray text-small">fmlist.org</span></a>
+            <a href="https://fmlist.org" target="_blank"><img src="http://fmlist.org/favicon.ico" width="14" height="14" alt="FMLIST Logo"> FMLIST <span class="color-gray text-small">fmlist.org</span></a>
         </p>
         <p class="m-5">
             <a href="https://radioorlicko.cz" target="_blank">🇨🇿 Radio Orlicko <span class="color-gray text-small">radioorlicko.cz</span></a>
         </p>
         <p class="m-5">
             <a href="https://fmdx.pl" target="_blank">🇵🇱 FMDX.pl <span class="color-gray text-small">fmdx.pl</span></a>
+        </p>
+        <p class="m-5">
+            <a href="https://dx.cz" target="_blank">🇨🇿 Czechoslovak DX Club <span class="color-gray text-small">dx.cz</span></a>
+        </p>
+        <p class="m-5">
+            <a href="https://wtfda.org" target="_blank">🇺🇸 WTFDA (DX Association) <span class="color-gray text-small">wtfda.org</span></a>
         </p>
     </div>
     

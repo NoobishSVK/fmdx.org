@@ -8,7 +8,7 @@
     <meta name="author" content="FMDX.org Team">
     <link rel="canonical" href="https://fmdx.org">
     
-    <meta property="og:title" content=<?php echo isset($pageTitle) ? $pageTitle.' - FMDX.org - the Open FM DX Hub!' : 'FMDX.org - the Open FM DX Hub!'; ?>">
+    <meta property="og:title" content="<?php echo isset($pageTitle) ? $pageTitle.' - FMDX.org - the Open FM DX Hub!' : 'FMDX.org - the Open FM DX Hub!'; ?>">
     <meta property="og:description" content="Join the global DXers community dedicated to open-source projects. Discover hardware and software solutions for DXing.">
     <meta property="og:image" content="https://fmdx.org/img/og-image.jpg">
     <meta property="og:url" content="https://fmdx.org">

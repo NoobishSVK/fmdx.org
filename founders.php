@@ -50,6 +50,21 @@
 
                         <br>
                         <hr>
+						<div class="flex-container flex-center" style="margin-top: 30px">
+                            <div class="circle" style="width:256px;">
+                                <img src="/img/founders/konrad_kosmatka.jpg" alt="Konrad Kosmatka - kkonrad" width="100%" heigth="100%" class="circle">
+                            </div>
+                            <div class="m-left-10 text-left" style="width: 75%;padding-left: 25px;">
+                                <h3 class="m-0 color-main">Konrad Kosmatka [<span style="font-size: 20px;">🇵🇱</span>]</h3>
+								<p>Konrad Kosmatka, also known as <span class="color-main">kkonrad</span>, is a key figure in the DX community, shaping its development significantly. Konrad is known for the famous Sony XDR-F1HD modification, featuring custom microcontroller firmware (XDR-I2C) based on reverse-engineering, a remote control server (xdrd), and a user interface (XDR-GTK). This project has evolved into a versatile FM-DX Tuner firmware that supports various microcontrollers and can easily be extended to new hardware.</p>
+
+								<p>Currently, Konrad is leading the <span class="text-bold color-main">TEF Headless USB Tuner</span> project, developing its hardware and firmware. His extensive skillset, technical expertise, and programming ability have laid the groundwork for numerous other projects within the community.</p>
+                                <button class="btn-small">Contact via e-mail</button>
+                            </div>
+                        </div>
+
+                        <br>
+                        <hr>
 
                         <div class="flex-container flex-center" style="margin-top: 30px">
                             <div class="circle" style="width:256px;">
@@ -57,7 +72,7 @@
                             </div>
                             <div class="m-left-10 text-left" style="width: 75%;padding-left: 25px;">
                                 <h3 class="m-0 color-main">Ester Vlčková [<span style="font-size: 20px;">🇨🇿</span>]</h3>
-                                <p>Ester Vlčková, also known as <span class="color-main">Aurie</span>, is of the founders and community managers of OpenRadio. Passionate about radio, she actively engages with our community, sharing her catches and participating in discussions.</p>
+                                <p>Ester Vlčková, also known as <span class="color-main">Aurie</span>, is one of the founders and the community manager of OpenRadio. Passionate about radio, she actively engages with our community, sharing her catches and participating in discussions.</p>
                                 <p>She's also the one in charge of the community Discord server, ensuring that everything works properly. Her goal is to maintain an inclusive and safe environment where everyone feels welcome and valued.</p>
                                 <button class="btn-small">Contact via e-mail</button>
                             </div>

@@ -24,6 +24,23 @@
 
                     <h2 style="margin-bottom: 0;">News</h2>
                     <article class="panel panel-big">
+                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/TZf635l.png');">
+                            <div style="width: 100%;">
+                                <h2>Newsletter - June/July 2024</h2>
+                                <p class="text-small-12 m-0">by Noobish<br>
+                                8th July 2024</p>
+                            </div>
+                            <div style="width: 100px;font-size:60px;" class="hide-phone">
+                            ✨
+                            </div>
+                        </div>
+                        <div style="padding: 20px 40px;">
+                            <p>Hot summer for European DXers, cold winter for the DXers down under. Lots of sporadic E, and of course, news from the FMDX team!</p>
+                        </div>
+                        <a href="/articles/newsletter-june-july-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                    </article>
+
+                    <article class="panel panel-big">
                         <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/gAEwbXH.jpeg');">
                             <div style="width: 100%;">
                                 <h2>New website launched!</h2>
