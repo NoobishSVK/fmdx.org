@@ -17,10 +17,30 @@
                         We're committed to work on an inclusive environment where everyone can
                         participate and contribute to the advancement of DXing technologies.</p>
 
+                        <p>In case this is your first time here and you aren't familiar with us, DXing the hobby of receiving and identifying distant radio or television signals, or making two-way radio contact with distant stations.</p>
+
                         <p class="text-medium">Come join us as we work to make DXing easy, collaborative, and open for all!</p>
+
 
                         <a href="/ourmission.php"><div class="btn-small" style="width: 250px;margin: auto;text-transform: uppercase;">Our Mission</div></a>
                     </div>
+
+                    <article class="panel panel-big">
+                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/eIUArzi.jpeg');">
+                            <div style="width: 100%;">
+                                <h2>Newsletter - August 2024</h2>
+                                <p class="text-small-12 m-0">by Noobish<br>
+                                28th August 2024</p>
+                            </div>
+                            <div style="width: 100px;font-size:60px;" class="hide-phone">
+                            ☀️
+                            </div>
+                        </div>
+                        <div style="padding: 20px 40px;">
+                            <p>Summer is coming to its end, and so are the meetups for this year. Does that mean more content for you?</p>
+                        </div>
+                        <a href="/articles/newsletter-august-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                    </article>
 
                     <article class="panel panel-big">
                         <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/TZf635l.png');">
@@ -60,7 +80,7 @@
                         <a href="/articles/new-website.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
                     </article>
 
-                    <article class="panel panel-big">
+                    <!--<article class="panel panel-big">
                         <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/rglsL3c.jpeg');">
                             <div style="width: 100%;">
                                 <h2>Newsletter - May 2024</h2>
@@ -77,7 +97,7 @@
                             <p>In this newsletter we will discuss some changes related to our community and the website itself, as big things are coming.</p>
                         </div>
                         <a href="/articles/newsletter-may-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
-                    </article>
+                    </article>-->
                     <button class="btn-rounded m-auto disabled" style="background-color: #333;">Read more news</button>
                 </main> 
                 <?php include 'includes/sidepanels.php';?>

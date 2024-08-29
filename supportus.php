@@ -1,3 +1,6 @@
+<?php
+include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/tools/bmac.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <?php
@@ -22,14 +25,14 @@
                         <div class="flex-container flex-center">
                             <div>
                                 <p class="text-bold m-0" style="font-size: 20px">last 30 days</p>
-                                <p class="m-0">~ coming soon ~</p>
+                                <p class="m-0"><?php echo $total_amount?></p>
                             </div>
                             <div class="text-center" style="width:400px";>
                                 <p class="text-center">Thank you!</p>
                                 <p>❤️</p>
                             </div>
                             <div>
-                                <button class="btn-small m-auto disabled" style="background-color: #333">DONATE</button>
+                                <a href="https://buymeacoffee.com/fmdx" target="_blank"><button class="btn-small m-auto">Support us</button></a>
                             </div>
                         </div>
 

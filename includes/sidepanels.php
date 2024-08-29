@@ -4,6 +4,8 @@ $response = file_get_contents($api_url);
 $data = json_decode($response, true);
 $dataset = $data['dataset'];
 $array_length = count($dataset);
+
+include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/tools/bmac.php';
 ?>
 
 <aside>
@@ -33,13 +35,20 @@ $array_length = count($dataset);
     </div>
 
     <div class="panel panel-small text-center">
-        <h2>Donation goal</h2>
+        <h2>Supporters</h2>
         <p>FMDX.org thrives thanks to you!</p>
         <p class="text-bold m-0" style="font-size: 20px">last 30 days</p>
-        <p class="m-0">~ coming soon ~</p>
+        <p class="m-0"><?php echo $total_amount?></p>
         <br>
-        <a href="/supportus.php"><button class="btn-small m-auto">DONATE</button></a>
+        <a href="/supportus.php"><button class="btn-small m-auto">Support us</button></a>
         <p style="font-size: 14px"><a href="/supportus.php"><span class="color-main">[ </span>How we use your donations<span class="color-main"> ]</span></a></p>
+    </div>
+	
+	    <div class="panel panel-small">
+        <h2>FMDX Sponsors</h2>
+        <p class="m-5 text-center">
+            <a href="https://bbxnet.sk" target="_blank"><img src="/img/bbxnet.png" width="80%" alt="BBXNET.sk"></a>
+        </p>
     </div>
 
     <div class="panel panel-small">
