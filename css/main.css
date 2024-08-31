@@ -4,6 +4,10 @@
     --color-bg: #202228;
     --color-disabled: #888;
     --color-red: #ff4242;
+    --color-green: #42ff62;
+
+    --color-1: #25272e;
+    --color-2: #2e4940;
 }
 
 * {
@@ -87,7 +91,7 @@ footer {
     }
     h1 {
         margin: auto;
-        max-width: 90%;
+        max-width: 100%;
     }
 }
 

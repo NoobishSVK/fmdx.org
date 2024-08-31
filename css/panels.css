@@ -4,6 +4,34 @@
     transition: 0.35s background-color ease;
 }
 
+.panel-25 {
+    width: 25%;
+}
+.panel-50 {
+    width: 50%;
+}
+
+.panel-rollout {
+    background-color: var(--color-1);
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.panel-rollout > .item {
+    cursor: pointer;
+    background-color: var(--color-main-dark);
+    border-radius: 15px;
+    transition: 0.3s ease filter;
+}
+
+.panel-rollout .item:hover {
+    filter: brightness(1.2);
+}
+
+.panel-rollout > .panel-description {
+    padding: 10px;
+}
+
 .panel.hover-brighten:hover {
     background-color: var(--color-main-dark);
 }

@@ -34,10 +34,10 @@
         </li>
         <li>Guide <i class="fa-solid fa-chevron-down m-left-10 text-small"></i>
             <ul>
-                <li><a href="https://tef.noobish.eu" target="_blank">Summary</a></li>
-                <li class="disabled">TEF Receivers</li>
-                <li class="disabled">Accessories</li>
-                <li class="disabled">Spare parts</li>
+                <li><a href="/projects/guide/">Summary</a></li>
+                <li><a href="/projects/guide/receivers.php">TEF Receivers</a></li>
+                <li><a href="/projects/guide/accessories.php">Accessories</a></li>
+                <li><a href="/projects/guide/spareparts.php">Spare parts</a></li>
             </ul> 
         </li>
         <li class="disabled">Login</li>
@@ -78,13 +78,14 @@
         <li class="menu-item">
             <div class="onclick-menu">Guide  <i class="fa-solid fa-chevron-down m-left-10"></i></div>
             <ul class="onclick-menu-content">
-                <li><a href="https://tef.noobish.eu" target="_blank">Summary</a></li>
-                <li class="disabled">TEF Receivers</li>
-                <li class="disabled">Accessories</li>
-                <li class="disabled">Spare parts</li>
+                <li><a href="/projects/guide/">Summary</a></li>
+                <li><a href="/projects/guide/receivers.php">TEF Receivers</a></li>
+                <li><a href="/projects/guide/accessories.php">Accessories</a></li>
+                <li><a href="/projects/guide/spareparts.php">Spare parts</a></li>
             </ul>
         </li>
     </ul>
 </div>
 
 </nav>
+<script src="/js/main.js"></script>

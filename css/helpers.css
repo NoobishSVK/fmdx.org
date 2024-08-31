@@ -122,6 +122,9 @@
     .flex-phone-column > div {
         width: 100% !important;
     }
+    .text-center-phone {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 921px) {

@@ -22,10 +22,12 @@ nav > ul > li {
     cursor: pointer;
     display: flex;
     align-items: center;
+    position: relative; /* Position relative for submenu positioning */
 }
 
 nav ul li a {
     color: var(--color-main);
+    text-decoration: none;
 }
 
 nav ul li a:hover {
@@ -41,37 +43,47 @@ nav > ul > li:last-of-type {
 }
 
 nav > ul ul {
-	display: none;
-	position: absolute; 
-	top: 64px; /* the height of the main nav */
+    display: none;
+    position: absolute;
+    top: 64px; /* the height of the main nav */
     width: 150px;
     list-style-type: none;
     padding: 0;
     margin-left: -15px;
-}
-	
-/* Display Dropdowns on Hover */
-nav ul li:hover > ul {
-	display:block;
-}
-	
-/* Fisrt Tier Dropdown */
-nav ul ul li {
-	width:auto;
-    height: 40px;
-    padding: 8px 16px;
-	float:none;
-	display:list-item;
-	position: relative;
+    z-index: 1000; /* Ensure the submenu is above other elements */
     background-color: var(--color-bg);
 }
 
-/* Second, Third and more Tiers	*/
-nav ul ul ul li {
-	position: relative;
-	top:-64px; 
+/* Display Dropdowns on Hover and Focus */
+nav ul li:hover > ul,
+nav ul li:focus-within > ul {
+    display: block;
+}
+
+/* First Tier Dropdown */
+nav ul ul li {
+    width: auto;
+    height: 40px;
+    padding: 8px 16px;
+    float: none;
+    display: list-item;
+    position: relative;
+    background-color: var(--color-bg);
+}
+
+/* Second, Third and more Tiers */
+nav ul ul ul {
+    display: none;
+    position: absolute;
+    top: 0;
     left: 149px;
     width: 250px;
+}
+
+/* Display nested dropdowns on hover and focus */
+nav ul ul li:hover > ul,
+nav ul ul li:focus-within > ul {
+    display: block;
 }
 
 footer ul {
@@ -159,7 +171,7 @@ footer ul {
     transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/* Ohyeah and the last one should go the other direction */
+/* Oh yeah and the last one should go the other direction */
 #menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
 }
@@ -205,7 +217,8 @@ footer ul {
     z-index: 3;
 }
 
-.menu-item:hover .onclick-menu-content {
+.menu-item:hover .onclick-menu-content,
+.menu-item:focus-within .onclick-menu-content {
     max-height: 500px; /* Adjust based on the content height */
     opacity: 1;
     visibility: visible;
@@ -217,8 +230,6 @@ footer ul {
     padding: 15px 10px;
     height: auto;
 }
-
-
 
 @media only screen and (max-width: 920px) {
     .footer-menu {
