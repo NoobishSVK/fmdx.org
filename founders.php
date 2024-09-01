@@ -59,7 +59,7 @@
 								<p>Konrad Kosmatka, also known as <span class="color-main">kkonrad</span>, is a key figure in the DX community, shaping its development significantly. Konrad is known for the famous Sony XDR-F1HD modification, featuring custom microcontroller firmware (XDR-I2C) based on reverse-engineering, a remote control server (xdrd), and a user interface (XDR-GTK). This project has evolved into a versatile FM-DX Tuner firmware that supports various microcontrollers and can easily be extended to new hardware.</p>
 
 								<p>Currently, Konrad is leading the <span class="text-bold color-main">TEF Headless USB Tuner</span> project, developing its hardware and firmware. His extensive skillset, technical expertise, and programming ability have laid the groundwork for numerous other projects within the community.</p>
-                                <a href="mailto:x"><button class="btn-small"><i class="fas fa-envelope"></i> Contact (e-mail)</button>
+                                <a href="mailto:x"><button class="btn-small"><i class="fas fa-envelope"></i> Contact (e-mail)</button></a>
                             </div>
                         </div>
 
