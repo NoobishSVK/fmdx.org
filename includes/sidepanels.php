@@ -30,7 +30,18 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/tools/bmac.php';
 
     <div class="panel panel-small">
         <h2>Sporadic E Status</h2>
-        <div id="mufData"></div>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="text-bold" style="padding-right: 10px;">EU</td>
+                    <td id="muf-eu" style="padding-top: 4px;"></td>
+                </tr>
+                <tr>
+                    <td class="text-bold" style="padding-right: 10px;">NA</td>
+                    <td id="muf-na" style="padding-top: 4px;"></td>
+                </tr>
+            </tbody>
+        </table>
         <p style="font-size: 14px" class="text-center"><a href="https://fmlist.org" target="_blank"><span class="color-main">[ </span>Data from FMLIST.org<span class="color-main"> ]</span></a></p>
     </div>
 
@@ -40,7 +51,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/tools/bmac.php';
         <p class="text-bold m-0" style="font-size: 20px">last 30 days</p>
         <p class="m-0"><?php echo $total_amount?></p>
         <br>
-        <a href="/supportus.php"><button class="btn-small m-auto">Support us</button></a>
+        <a href="https://buymeacoffee.com/fmdx" target="_blank"><button class="btn-small m-auto">Support us</button></a>
         <p style="font-size: 14px"><a href="/supportus.php"><span class="color-main">[ </span>How we use your donations<span class="color-main"> ]</span></a></p>
     </div>
 	
