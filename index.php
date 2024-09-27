@@ -26,6 +26,23 @@
                     </div>
 
                     <article class="panel panel-big">
+                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/LgiIZ5P.jpeg');">
+                            <div style="width: 100%;">
+                                <h2>Newsletter - September 2024</h2>
+                                <p class="text-small-12 m-0">by Noobish<br>
+                                27th September 2024</p>
+                            </div>
+                            <div style="width: 100px;font-size:60px;" class="hide-phone">
+                            ☀️
+                            </div>
+                        </div>
+                        <div style="padding: 20px 40px;">
+                            <p>It's been a while, but we've got some positive news again! We're talking about both hardware and software. Let's dive in.</p>
+                        </div>
+                        <a href="/articles/newsletter-september-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                    </article>
+
+                    <article class="panel panel-big">
                         <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/eIUArzi.jpeg');">
                             <div style="width: 100%;">
                                 <h2>Newsletter - August 2024</h2>
@@ -59,7 +76,7 @@
                         <a href="/articles/newsletter-june-july-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
                     </article>
 
-                    <article class="panel panel-big">
+                    <!--<article class="panel panel-big">
                         <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/gAEwbXH.jpeg');">
                             <div style="width: 100%;">
                                 <h2>New website launched!</h2>
@@ -78,7 +95,7 @@
                             everything!</p>
                         </div>
                         <a href="/articles/new-website.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
-                    </article>
+                    </article>-->
 
                     <!--<article class="panel panel-big">
                         <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/rglsL3c.jpeg');">
