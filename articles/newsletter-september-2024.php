@@ -21,7 +21,7 @@
                                 27th September 2024</p>
                             </div>
                             <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            ☀️
+                            🌐
                             </div>
                         </div>
 
@@ -35,23 +35,20 @@
                              has an integrated antenna switch, and unbeatable selectivity and sensitivity as it runs on TEF668x v205 (TEF6687 - F8705 recommended) with extra filters.</p>
                         <p class="text-left">Most importantly, you can use this with your webserver with just ONE USB cable!</p>
 
-                        <p>Schematics & other info is available on <a href="https://github.com/FMDX-org/tef668x-headless-usb-tuner" target="_blank"><strong>GitHub</strong></a>.<br>
-                        The official Headless TEF info page will be updated as well.</p>
+                        <p>Schematics & other info is available on <a href="https://github.com/FMDX-org/tef668x-headless-usb-tuner" class="text-main" target="_blank"><strong>GitHub</strong></a>.</p>
+                        <p class="text-small">The official Headless TEF info page will be updated as well.</p>
 
                         <h3 class="color-main">Webserver Tunnel Support</h3>
-                        <p class="text-left">We have noticed that some people would love to set up a webserver but simply can’t get a public IP address or don't know how to set up a tunnel.
-                        For these people, we now offer a tunneling service. This functionality is available as a benefit for our supporters.
-                        If you’d like to support us and receive your webserver tunnel login, feel free to do so on our Buy Me a Coffee page!
+                        <p class="text-left">We have noticed that some people would love to set up a webserver but simply can’t get a public IP address or don't know how to set up a tunnel.<br>
+                        For these people, we now offer a tunneling service. This functionality is available as a <strong>benefit for our supporters</strong>.<br><br>
+                        If you’d like to support us and receive your webserver tunnel login, feel free to do so on our <strong>Buy Me a Coffee</strong> page!<br>
                         After that, send Noobish (founders tab) an email for your details, or contact them on our Discord server.</p>
 
                         <a href="https://buymeacoffee.com/fmdx" target="_blank"><button class="btn-small m-auto">Support us</button></a>
-
-                        <img src="https://i.imgur.com/ruA58Vf.png">
-                        <p class="text-small">Tunnel interface settings - very easy to set up!</p>
                         
                         <h3 class="color-main">New transmitter content by FMLIST & logging</h3>
-                        <p class="text-left">Thanks to our partners from FMLIST, we’ve received data that we can now use for webserver transmitter identification for pretty much the entire world.
-                        In return, we have added a <strong>"LOG TO FMLIST"</strong> functionality, which ensures that all the data is correct, and that logs from your webserver can appear on their Visual Logbook.
+                        <p class="text-left">Thanks to our partners from FMLIST, we’ve received data that we can now use for webserver transmitter identification for pretty much the entire world.<br>
+                        In return, we have added a <strong>"LOG TO FMLIST"</strong> functionality, which ensures that all the data is correct, and that logs from your webserver can appear on their Visual Logbook.<br>
                         Simply put, we get data from them, our webservers ensure that this data is up to date, which makes the transmitter identification work properly — and that’s awesome!</p>
 
                         <h3 class="color-main">Webserver by dx.cz</h3>
@@ -59,7 +56,7 @@
                             This server is available for everyone to tune into and receives many stations from Germany.<br>
                             It’s amazing to see that Czech DXers always come up with the most extreme antennas!</p>
 
-                        <p>You can access their webserver at this URL: <a href="http://109.164.114.15:9090/" target="_blank">http://109.164.114.15:9090/</a>
+                        <p>You can access their webserver at this URL: <a href="http://109.164.114.15:9090/" class="text-main" target="_blank">http://109.164.114.15:9090/</a>
 
                         <h3 class="color-main">What’s coming next?</h3>
                         <p class="text-left">I can only talk about myself in this case, as other members are busy with distributing test units of the Headless TEF to the rest of the community.<br>
