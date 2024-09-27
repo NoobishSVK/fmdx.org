@@ -35,16 +35,16 @@
                              has an integrated antenna switch, and unbeatable selectivity and sensitivity as it runs on TEF668x v205 (TEF6687 - F8705 recommended) with extra filters.</p>
                         <p class="text-left">Most importantly, you can use this with your webserver with just ONE USB cable!</p>
 
-                        <p>Schematics & other info is available on <a href="https://github.com/FMDX-org/tef668x-headless-usb-tuner" class="text-main" target="_blank"><strong>GitHub</strong></a>.</p>
+                        <p>Schematics & other info is available on <a href="https://github.com/FMDX-org/tef668x-headless-usb-tuner" class="color-main" target="_blank"><strong>GitHub</strong></a>.</p>
                         <p class="text-small">The official Headless TEF info page will be updated as well.</p>
 
                         <h3 class="color-main">Webserver Tunnel Support</h3>
                         <p class="text-left">We have noticed that some people would love to set up a webserver but simply can’t get a public IP address or don't know how to set up a tunnel.<br>
                         For these people, we now offer a tunneling service. This functionality is available as a <strong>benefit for our supporters</strong>.<br><br>
                         If you’d like to support us and receive your webserver tunnel login, feel free to do so on our <strong>Buy Me a Coffee</strong> page!<br>
-                        After that, send Noobish (founders tab) an email for your details, or contact them on our Discord server.</p>
+                        After that, send <strong>Noobish</strong> (founders tab) an email for your details, or contact them on our <a href="https://discord.gg/ZAVNdS74mC" target="_blank" class="color-main">Discord</a> server.</p>
 
-                        <a href="https://buymeacoffee.com/fmdx" target="_blank"><button class="btn-small m-auto">Support us</button></a>
+                        <a href="https://buymeacoffee.com/fmdx" target="_blank"><img src="https://media.licdn.com/dms/image/v2/D4D12AQF0PZYrwThrIQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1701704819869?e=2147483647&v=beta&t=6RRIU3fx8mdk_gRJLDFtFfyVo4-ny3VOHgr_B2GJgDc" width="250" alt="Buy me a coffee!"></a>
                         
                         <h3 class="color-main">New transmitter content by FMLIST & logging</h3>
                         <p class="text-left">Thanks to our partners from FMLIST, we’ve received data that we can now use for webserver transmitter identification for pretty much the entire world.<br>
@@ -56,7 +56,7 @@
                             This server is available for everyone to tune into and receives many stations from Germany.<br>
                             It’s amazing to see that Czech DXers always come up with the most extreme antennas!</p>
 
-                        <p>You can access their webserver at this URL: <a href="http://109.164.114.15:9090/" class="text-main" target="_blank">http://109.164.114.15:9090/</a>
+                        <p>You can access their webserver at this URL: <a href="http://109.164.114.15:9090/" class="color-main" target="_blank">http://109.164.114.15:9090/</a>
 
                         <h3 class="color-main">What’s coming next?</h3>
                         <p class="text-left">I can only talk about myself in this case, as other members are busy with distributing test units of the Headless TEF to the rest of the community.<br>
