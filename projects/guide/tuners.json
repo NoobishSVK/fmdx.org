@@ -17,6 +17,22 @@
   },
   {
     "type": "receiver",
+    "name": "deepelec",
+    "name_full": "Deepelec DP-666",
+    "seller": "Deepelec Store",
+    "desc": "Brand new version with a numeric keypad by DeepElec.",
+    "desc_full": "A very unique model with a numeric keypad. The board seems to be built really well and the price is very competitive. Users seem to be very satisfied with this model so far.",
+    "pros": ["Numeric keypad", "FM-DX Webserver support", "PE5PVB's Firmware", "Easy to update"],
+    "cons": ["Rather ugly stickers, can be peeled off though"],
+    "firmware": "PE5PVB - OpenSource Mod",
+    "pc_support": "Yes",
+    "battery": "5000 mAh",
+    "rating": 5,
+    "price_full": "€83.66",
+    "link": "https://ehub.cz/system/scripts/click.php?a_aid=1733a3b0&a_bid=a8c4ae05&data1=TEF%20Silver&desturl=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007699913527.html"
+  },
+  {
+    "type": "receiver",
     "name": "silver-mini",
     "name_full": "Portable Silver Mini",
     "seller": "HamRadioshop Store",
