@@ -23,7 +23,7 @@
     "desc": "Brand new version with a numeric keypad by DeepElec.",
     "desc_full": "A very unique model with a numeric keypad. The board seems to be built really well and the price is very competitive. Users seem to be very satisfied with this model so far.",
     "pros": ["Numeric keypad", "FM-DX Webserver support", "PE5PVB's Firmware", "Easy to update"],
-    "cons": ["Rather ugly stickers, can be peeled off though"],
+    "cons": ["A metal case would fit the model better"],
     "firmware": "PE5PVB - OpenSource Mod",
     "pc_support": "Yes",
     "battery": "5000 mAh",
