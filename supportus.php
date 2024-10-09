@@ -24,7 +24,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/tools/bmac.php';
                         <h3 class="color-main">Donations</h3>
                         <div class="flex-container flex-center">
                             <div>
-                                <p class="text-bold m-0" style="font-size: 20px">last 30 days</p>
+                                <p class="text-bold m-0" style="font-size: 20px"><?php echo date('F Y');?></p>
                                 <p class="m-0"><?php echo $total_amount?></p>
                             </div>
                             <div class="text-center" style="width:400px";>
