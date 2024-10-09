@@ -1,5 +1,5 @@
 <?php
-$api_url = "https://list.fmdx.pl/api";
+$api_url = "https://servers.fmdx.org/api/";
 $response = file_get_contents($api_url);
 $data = json_decode($response, true);
 $dataset = $data['dataset'];
