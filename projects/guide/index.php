@@ -22,7 +22,7 @@
 
                         <p class="m-0"><i class="fa-solid fa-diamond"></i></p>
                         <p class="m-0" style="font-size: 24px;margin-bottom: 20px !important;"><a href="receivers.php" class="color-main">Receivers</a> <span class="text-gray">•</span> <a href="accessories.php" class="color-main">Accessories</a> <span class="text-gray">•</span> <a href="spareparts.php" class="color-main">Spare Parts</a>
-                        <table style="margin: auto;">
+                        <!--<table style="margin: auto;">
                             <thead>
                                 <tr class="color-main">
                                     <th style="font-size: 20px;">Code</th>
@@ -51,8 +51,8 @@
                                     <td>€50 off (above €369)</td>
                                 </tr> 
                             </tbody>
-                        </table>
-                        <p>These coupons will be available from 1st of October 2024.</p>
+                        </table>-->
+                        <p>No coupons are available at this time. I recommend waiting until the start of November for new coupons.</p>
                         <br>
                         <hr>
                         <p>This guide was made by <a href="/founders.php" class="text-bold color-main">Marek Farkaš (Noobish)</a>.<br>If you'd like to support the creator directly, please use the button below.</p>

@@ -29,6 +29,12 @@
             <ul>
                 <li><a href="https://discord.gg/ZAVNdS74mC" target="_blank" style="text-decoration: none;">Discord  <i class="fa-brands fa-discord m-left-10 text-small"></i></a></li>
             </ul>
+
+            <h4>Miscellaneous</h4>
+            <ul>
+                <li><a href="https://maps.fmdx.org" target="_blank">Transmitter Map</a></li>
+                <li><a href="https://pl.fmdx.org" target="_blank">Blog</a></li>
+            </ul> 
         </div>
 
         <div class="footer-menu">

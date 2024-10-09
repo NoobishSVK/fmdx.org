@@ -18,7 +18,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/tools/bmac.php';
     <div class="panel panel-small">
         <h2>Useful links</h2>
         <p class="m-5">
-            <a href="https://maps.fmdx.pl" target="_blank">FM-DX Transmitter Map <span class="color-gray text-small">maps.fmdx.pl</span></a>
+            <a href="https://maps.fmdx.org" target="_blank">FM-DX Transmitter Map <span class="color-gray text-small">maps.fmdx.org</span></a>
         </p>
         <p class="m-5">
             <a href="https://www.dxinfocentre.com/tropo.html" target="_blank">Tropo Map [Hepburn] <span class="color-gray text-small">dxinfocentre.com</span></a>
@@ -69,9 +69,6 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/tools/bmac.php';
         </p>
         <p class="m-5">
             <a href="https://radioorlicko.cz" target="_blank">🇨🇿 Radio Orlicko <span class="color-gray text-small">radioorlicko.cz</span></a>
-        </p>
-        <p class="m-5">
-            <a href="https://fmdx.pl" target="_blank">🇵🇱 FMDX.pl <span class="color-gray text-small">fmdx.pl</span></a>
         </p>
         <p class="m-5">
             <a href="https://dx.cz" target="_blank">🇨🇿 Czechoslovak DX Club <span class="color-gray text-small">dx.cz</span></a>

@@ -40,6 +40,12 @@
                 <li><a href="/projects/guide/spareparts.php">Spare parts</a></li>
             </ul> 
         </li>
+        <li>Miscellaneous <i class="fa-solid fa-chevron-down m-left-10 text-small"></i>
+            <ul>
+                <li><a href="https://maps.fmdx.org" target="_blank">Transmitter Map</a></li>
+                <li><a href="https://pl.fmdx.org" target="_blank">Blog</a></li>
+            </ul> 
+        </li>
         <li class="disabled">Login</li>
     </ul>
 
@@ -82,6 +88,13 @@
                 <li><a href="/projects/guide/receivers.php">TEF Receivers</a></li>
                 <li><a href="/projects/guide/accessories.php">Accessories</a></li>
                 <li><a href="/projects/guide/spareparts.php">Spare parts</a></li>
+            </ul>
+        </li>
+        <li class="menu-item">
+        <div class="onclick-menu">Miscellaneous  <i class="fa-solid fa-chevron-down m-left-10"></i></div>
+            <ul class="onclick-menu-content">
+                <li><a href="https://maps.fmdx.org" target="_blank">Transmitter Map</a></li>
+                <li><a href="https://pl.fmdx.org" target="_blank">Blog</a></li>
             </ul>
         </li>
     </ul>
