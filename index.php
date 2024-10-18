@@ -17,7 +17,7 @@
                         We're committed to work on an inclusive environment where everyone can
                         participate and contribute to the advancement of DXing technologies.</p>
 
-                        <p>In case this is your first time here and you aren't familiar with us, DXing the hobby of receiving and identifying distant radio or television signals, or making two-way radio contact with distant stations.</p>
+                        <p>In case this is your first time here and you aren't familiar with us, DXing is the hobby of receiving and identifying distant radio or television signals, or making two-way radio contact with distant stations.</p>
 
                         <p class="text-medium">Come join us as we work to make DXing easy, collaborative, and open for all!</p>
 
