@@ -26,6 +26,23 @@
                     </div>
 
                     <article class="panel panel-big">
+                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/BtyI7eE.jpeg');">
+                            <div style="width: 100%;">
+                                <h2>Newsletter - October 2024</h2>
+                                <p class="text-small-12 m-0">by Noobish<br>
+                                28th October 2024</p>
+                            </div>
+                            <div style="width: 100px;font-size:60px;" class="hide-phone">
+                            🍂
+                            </div>
+                        </div>
+                        <div style="padding: 20px 40px;">
+                            <p>Time flies! It’s already October, and we have some exciting news to share. This month, we’ll be talking about new milestones, anniversaries, and our plans for the future.</p>
+                        </div>
+                        <a href="/articles/newsletter-september-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                    </article>
+
+                    <article class="panel panel-big">
                         <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/LgiIZ5P.jpeg');">
                             <div style="width: 100%;">
                                 <h2>Newsletter - September 2024</h2>

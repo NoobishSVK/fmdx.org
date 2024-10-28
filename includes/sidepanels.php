@@ -76,6 +76,9 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/tools/bmac.php';
         <p class="m-5">
             <a href="https://wtfda.org" target="_blank">🇺🇸 WTFDA (DX Association) <span class="color-gray text-small">wtfda.org</span></a>
         </p>
+        <p class="m-5">
+            <a href="https://discord.gg/SFnY2EgM3v" target="_blank"><img src="https://i.imgur.com/xWbHxVg.png" width="14" height="14" alt="RF Rendezvous Logo"> RF Rendezvous <span class="color-gray text-small">Discord</span></a>
+        </p>
     </div>
     
     <script src="/js/tools/get_muf.js"></script>
