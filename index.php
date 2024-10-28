@@ -39,7 +39,7 @@
                         <div style="padding: 20px 40px;">
                             <p>Time flies! It’s already October, and we have some exciting news to share. This month, we’ll be talking about new milestones, anniversaries, and our plans for the future.</p>
                         </div>
-                        <a href="/articles/newsletter-september-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                        <a href="/articles/newsletter-october-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
                     </article>
 
                     <article class="panel panel-big">
