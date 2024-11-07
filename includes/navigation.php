@@ -26,7 +26,7 @@
                 </li>
             </ul> 
         </li>
-        <li class="disabled">Database</li>
+        <!--<li class="disabled">Database</li>-->
         <li>Community <i class="fa-solid fa-chevron-down m-left-10 text-small"></i>
             <ul>
                 <li><a href="https://discord.gg/ZAVNdS74mC" target="_blank" style="text-decoration: none;">Discord  <i class="fa-brands fa-discord m-left-10 text-small"></i></a></li>

@@ -21,11 +21,11 @@
                         
                         <p class="text-left">We are bringing you a comprehensive spec sheet, so you can learn more.<p>
 
-                        <table style="margin: auto;">
+                        <table style="margin: auto;" class="text-left">
                             <thead>
                                 <tr class="color-main">
-                                    <th style="font-size: 20px;">Code</th>
-                                    <th style="font-size: 20px;">Discount</th>
+                                    <th style="font-size: 20px;">Specification</th>
+                                    <th style="font-size: 20px;"></th>
                                 </tr>
                             </thead>
                             <tbody>
