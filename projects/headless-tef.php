@@ -53,11 +53,11 @@
                         </table>
 
                         <h3 class="color-main">Build one yourself!</h3>
-                        <p class="text-left">If you are looking to build one tuner yourself, you can find all the needed files on <a href="https://github.com/FMDX-org/tef668x-headless-usb-tuner" target="_blank" class="text-main">GitHub</a>
+                        <p>If you are looking to build one tuner yourself, you can find all the needed files on <a href="https://github.com/FMDX-org/tef668x-headless-usb-tuner" target="_blank" class="text-main">GitHub</a>
 
                         <br>
                         <hr>
-                        <p>This project was created by <a href="/founders.php" class="text-bold color-main">FMDX.org / OpenRadio</a>.
+                        <p>This project was created by <a href="/founders.php" class="text-bold color-main">FMDX.org / OpenRadio</a></p>.
                         <a href="https://buymeacoffee.com/fmdx" target="_blank"><img src="https://media.licdn.com/dms/image/v2/D4D12AQF0PZYrwThrIQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1701704819869?e=2147483647&v=beta&t=6RRIU3fx8mdk_gRJLDFtFfyVo4-ny3VOHgr_B2GJgDc" width="250" alt="Buy me a coffee!"></a>
                         <p>Your donations are appreciated! ❤️</p>
                     </div>
