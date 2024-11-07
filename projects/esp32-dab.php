@@ -33,8 +33,8 @@
                         <br>
                         <hr>
                         <p>This project was created by <a href="/founders.php" class="text-bold color-main">Sjef Verhoeven (PE5PVB)</a>.<br>If you'd like to support the creator directly, please use the button below.</p>
+                        <a href="https://buymeacoffee.com/pe5pvb" target="_blank"><img src="https://media.licdn.com/dms/image/v2/D4D12AQF0PZYrwThrIQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1701704819869?e=2147483647&v=beta&t=6RRIU3fx8mdk_gRJLDFtFfyVo4-ny3VOHgr_B2GJgDc" width="250" alt="Buy me a coffee!"></a>
                         <p>Your donations are appreciated! ❤️</p>
-                        <a href="https://buymeacoffee.com/pe5pvb" target="_blank"><img src="https://camo.githubusercontent.com/52867c19b7dfad6776f2d60ae248692873ae6bdcb9a3df2bfca2f1f2ffdfd15d/68747470733a2f2f63646e2e6275796d6561636f666665652e636f6d2f627574746f6e732f76322f64656661756c742d626c75652e706e67" width="250" alt="Buy me a coffee!"></a>
                     </div>
                 </main> 
                 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidepanels.php');?>

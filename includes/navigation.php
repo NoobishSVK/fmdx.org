@@ -80,7 +80,7 @@
                 <li><a href="/projects/xdrd.php">xdrd</a></li>
             </ul>
         </li>
-        <li class="disabled">Database</li>
+        <!--<li class="disabled">Database</li>-->
         <li class="menu-item">
             <div class="onclick-menu">Guide  <i class="fa-solid fa-chevron-down m-left-10"></i></div>
             <ul class="onclick-menu-content">

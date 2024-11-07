@@ -3,7 +3,7 @@
 $panels = [
     '<div class="panel panel-small link-external panel-small-extended">
         <h2 class="heading-slim">FM-DX Webserver</h2>
-        <p class="p-side-20 text-center">An amazing that will get your FM tuner online in an instant.</p>
+        <p class="p-side-20 text-center">An amazing tool, that will get your FM tuner online in an instant.</p>
         <a href="/projects/webserver.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
     </div>',
     '<div class="panel panel-small link-external panel-small-extended">
@@ -28,7 +28,7 @@ $panels = [
     </div>',
     '<div class="panel panel-small link-external panel-small-extended">
         <h2 class="heading-slim">FM-DX Tuner</h2>
-        <p class="p-side-20 text-center">Lightweight firmware for TEF/XDR receivers with advanced RDS.</p>
+        <p class="p-side-20 text-center">Lightweight firmware for TEF/XDR receivers with advanced RDS features.</p>
         <div class="disabled link-external-button" style="background-color: #444 !important; cursor: disabled !important;"><i class="fa-solid fa-chevron-right p-5"></i></div>
     </div>'
 ];
