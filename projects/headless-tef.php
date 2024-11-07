@@ -16,7 +16,7 @@
                     <div class="panel panel-big text-center" style="padding: 30px 50px;">
                         <h2>Headless TEF Tuner</h2>
                         <p class="text-left">We're excited to announce a new project from our community: a small FM tuner based on the NXP TEF668x chip and STM32 with a custom board. This tuner can be controlled remotely from your computer, features two antenna connectors, and transmits audio through a single USB cable.</p>
-
+                        <p class="text-left">Best of all, it's fully compatible with <a href="/projects/xdr-gtk.php">XDR-GTK</a> and <a href="/projects/fm-dx-webserver.php">FM-DX Webserver</a>.</p>
                         <img src="/img/projects/headless_tef/headless_tef_board.jpg" width="80%" alt="Original TEF Board Design">
                         
                         <p class="text-left">We are bringing you a comprehensive spec sheet, so you can learn more.<p>
@@ -24,7 +24,7 @@
                         <table style="margin: auto;" class="text-left">
                             <thead>
                                 <tr class="color-main">
-                                    <th style="font-size: 20px;">Specification</th>
+                                    <th style="font-size: 20px;"></th>
                                     <th style="font-size: 20px;"></th>
                                 </tr>
                             </thead>
@@ -52,12 +52,9 @@
                             </tbody>
                         </table>
 
-                        <h3>Build one yourself!</h3>
-                        <p>If you are looking to build one tuner yourself, you can find all the needed files on <a href="https://github.com/FMDX-org/tef668x-headless-usb-tuner" target="_blank" class="text-main">GitHub</a>
-                        <p class="text-left">Best of all, it's fully compatible with <a href="/projects/xdr-gtk.php">XDR-GTK</a> and <a href="/projects/fm-dx-webserver.php">FM-DX Webserver</a>.</p>
+                        <h3 class="color-main">Build one yourself!</h3>
+                        <p class="text-left">If you are looking to build one tuner yourself, you can find all the needed files on <a href="https://github.com/FMDX-org/tef668x-headless-usb-tuner" target="_blank" class="text-main">GitHub</a>
 
-                        <p class="text-left">Stay tuned for more updates and the release date. We can’t wait to share this FM tuner with you!</p>
-                        <br>
                         <br>
                         <hr>
                         <p>This project was created by <a href="/founders.php" class="text-bold color-main">FMDX.org / OpenRadio</a>.
