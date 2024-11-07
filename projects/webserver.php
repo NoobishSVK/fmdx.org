@@ -36,7 +36,7 @@
                         <br>
                         <a href="https://github.com/NoobishSVK/fm-dx-webserver/blob/main/README.md" target="_blank">Setup Info</a>
                         <br>
-                        <h3 id="rules">Public webserver hosting rules (maps)</h3>
+                        <h3 id="rules" class="color-main">Public webserver hosting rules (maps)</h3>
                         <p class="text-left">Hosting a webserver publicly with it being on the maps comes with some rules. If you break these rules, you might be banned from adding a webserver to the maps.<br>
                             If you are using this app privately, or you are just a regular user, in most cases you have nothing to worry about</p>
                         <ol class="text-left">
@@ -46,7 +46,7 @@
                             <li>Modifying the metadata that is being sent to maps is not allowed</li>
                             <li>Removing basic features of the webserver is not allowed</li>
                             <li>All modifications must be made in the form of a plugin, unless it's not possible (may happen in some cases)</li>
-                            <li>The FMDX.org team reserves the right to suspend an user if they find it suspicious in any case</li>
+                            <li>The FMDX.org team reserves the right to suspend the server owner from maps if they find the server/owner suspicious in any case</li>
                         </ol>
 
                         <br>
