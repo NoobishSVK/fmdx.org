@@ -31,24 +31,28 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="text-bold" style="padding: 3px 10px;">11CD03</td>
-                                    <td>€3 off (above €29)</td>
+                                    <td class="text-bold" style="padding: 3px 10px;">19D111</td>
+                                    <td>€3 off (above €19)</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-bold" style="padding: 3px 10px;">11CD10</td>
-                                    <td>€10 off (above €79)</td>
+                                    <td class="text-bold" style="padding: 3px 10px;">39D111</td>
+                                    <td>€5 off (above €39)</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-bold" style="padding: 3px 10px;">11CD215</td>
-                                    <td>€15 off (above €119)</td>
+                                    <td class="text-bold" style="padding: 3px 10px;">169D11</td>
+                                    <td>€25 off (above €169)</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-bold" style="padding: 3px 10px;">11CD30</td>
-                                    <td>€30 off (above €229)</td>
+                                    <td class="text-bold" style="padding: 3px 10px;">269D11</td>
+                                    <td>€40 off (above €269)</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-bold" style="padding: 3px 10px;">11CD50</td>
-                                    <td>€50 off (above €349)</td>
+                                    <td class="text-bold" style="padding: 3px 10px;">359D11</td>
+                                    <td>€60 off (above €359)</td>
+                                </tr> 
+                                <tr>
+                                    <td class="text-bold" style="padding: 3px 10px;">499D11</td>
+                                    <td>€80 off (above €499)</td>
                                 </tr> 
                             </tbody>
                         </table>
