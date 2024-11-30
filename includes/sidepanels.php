@@ -58,7 +58,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/tools/bmac.php';
 	    <div class="panel panel-small">
         <h2>FMDX Sponsors</h2>
         <p class="m-5 text-center">
-            <a href="https://bbxnet.sk" target="_blank"><img src="/img/bbxnet.png" width="80%" alt="BBXNET.sk"></a>
+            <a href="https://rebit.sk" target="_blank"><img src="/img/rebit_logo.png" width="90%" alt="REBIT"></a>
         </p>
     </div>
 
