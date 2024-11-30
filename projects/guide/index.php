@@ -31,32 +31,44 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="text-bold" style="padding: 3px 10px;">19D111</td>
-                                    <td>€3 off (above €19)</td>
+                                    <td class="text-bold" style="padding: 3px 10px;">24BF04</td>
+                                    <td>€4 off (above €29)</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-bold" style="padding: 3px 10px;">39D111</td>
-                                    <td>€5 off (above €39)</td>
+                                    <td class="text-bold" style="padding: 3px 10px;">24BF06</td>
+                                    <td>€6 off (above €39)</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-bold" style="padding: 3px 10px;">169D11</td>
+                                    <td class="text-bold" style="padding: 3px 10px;">24BF12</td>
+                                    <td>€12 off (above €89)</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-bold" style="padding: 3px 10px;">24BF20</td>
+                                    <td>€20 off (above €139)</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-bold" style="padding: 3px 10px;">24BF25</td>
                                     <td>€25 off (above €169)</td>
-                                </tr>
-                                <tr>
-                                    <td class="text-bold" style="padding: 3px 10px;">269D11</td>
-                                    <td>€40 off (above €269)</td>
-                                </tr>
-                                <tr>
-                                    <td class="text-bold" style="padding: 3px 10px;">359D11</td>
-                                    <td>€60 off (above €359)</td>
                                 </tr> 
                                 <tr>
-                                    <td class="text-bold" style="padding: 3px 10px;">499D11</td>
+                                    <td class="text-bold" style="padding: 3px 10px;">24BF30</td>
+                                    <td>€30 off (above €209)</td>
+                                </tr> 
+                                <tr>
+                                    <td class="text-bold" style="padding: 3px 10px;">24BF45</td>
+                                    <td>€45 off (above €299)</td>
+                                </tr> 
+                                <tr>
+                                    <td class="text-bold" style="padding: 3px 10px;">24BF60</td>
+                                    <td>€60 off (above €399)</td>
+                                </tr> 
+                                <tr>
+                                    <td class="text-bold" style="padding: 3px 10px;">24BF80</td>
                                     <td>€80 off (above €499)</td>
                                 </tr> 
                             </tbody>
                         </table>
-                        <p>These coupons are available until November 19th 2024.</p>
+                        <p>These coupons are available until December 4th 2024.</p>
                         <br>
                         <hr>
                         <p>This guide was made by <a href="/founders.php" class="text-bold color-main">Marek Farkaš (Noobish)</a>.<br>If you'd like to support the creator directly, please use the button below.</p>
