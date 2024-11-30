@@ -26,6 +26,23 @@
                     </div>
 
                     <article class="panel panel-big">
+                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/aL0cNnA.png');">
+                            <div style="width: 100%;">
+                                <h2>Newsletter - November 2024</h2>
+                                <p class="text-small-12 m-0">by Noobish<br>
+                                30th November 2024</p>
+                            </div>
+                            <div style="width: 100px;font-size:60px;" class="hide-phone">
+                            🍂
+                            </div>
+                        </div>
+                        <div style="padding: 20px 40px;">
+                            <p>As we approach the end of 2024, November is nearly behind us. Let’s take a moment to recap the highlights of this past month.</p>
+                        </div>
+                        <a href="/articles/newsletter-october-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                    </article>
+
+                    <article class="panel panel-big">
                         <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/BtyI7eE.jpeg');">
                             <div style="width: 100%;">
                                 <h2>Newsletter - October 2024</h2>
@@ -33,7 +50,7 @@
                                 28th October 2024</p>
                             </div>
                             <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            🍂
+                            🧣
                             </div>
                         </div>
                         <div style="padding: 20px 40px;">
@@ -76,7 +93,7 @@
                         <a href="/articles/newsletter-august-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
                     </article>
 
-                    <article class="panel panel-big">
+                    <!--<article class="panel panel-big">
                         <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/TZf635l.png');">
                             <div style="width: 100%;">
                                 <h2>Newsletter - June/July 2024</h2>
@@ -93,7 +110,7 @@
                         <a href="/articles/newsletter-june-july-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
                     </article>
 
-                    <!--<article class="panel panel-big">
+                    <article class="panel panel-big">
                         <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/gAEwbXH.jpeg');">
                             <div style="width: 100%;">
                                 <h2>New website launched!</h2>

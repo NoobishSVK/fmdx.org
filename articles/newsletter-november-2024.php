@@ -14,14 +14,14 @@
             <div class="flex-container">
                 <main>
                     <article class="panel panel-big text-center">
-                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/BtyI7eE.jpeg');">
+                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/aL0cNnA.png');">
                             <div style="width: 100%;">
                                 <h2>Newsletter - November 2024</h2>
                                 <p class="text-small-12 m-0">by Noobish<br>
                                 30th November 2024</p>
                             </div>
                             <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            🍂
+                            🧣
                             </div>
                         </div>
 
@@ -30,7 +30,7 @@
 
                         <h3 class="color-main">Tropospheric propagation</h3>
                         <p class="text-left">European DXers experienced phenomenal tropospheric propagation conditions, with signals logged from over 1,000 km away across Europe. Notable receptions included:</p>
-                        <ul>
+                        <ul class="text-left">
                             <li>The United Kingdom in Czechia and Poland (and vice versa!)</li>
                             <li>Luxembourg across the entirety of Czechia</li>
                             <li>Slovakia with RDS logged in Norway</li>
@@ -38,7 +38,7 @@
                             <li>Denmark reaching southern France</li>
                             <li>Germany logged across nearly all of Europe from numerous transmitters</li>
                         </ul>
-                        
+
                         <p class="text-left">November 3rd stood out as the best day for tropospheric conditions. It also served as an excellent demonstration of the FM-DX Webserver's logging functionality. We’re thrilled by the surge of new logs thanks to the collaboration between our team and FMLIST.</p>
                         <p class="text-left">You can explore the log map from November 3rd <a href="https://fmlist.org/fm_logmap.php?datum=2024-11-03" target="_blank" class="color-main">here</a>.
 
@@ -58,9 +58,9 @@
 
                         <h3 class="color-main">FM-DX Webserver</h3>
                         <p class="text-left">The FM-DX Webserver underwent a significant security update alongside numerous bug fixes. Our primary focus is to make the webserver more modular and reduce the codebase size while maintaining existing features. While new features are not expected in the near future, these updates aim to enhance stability.</p>
-                        <p class="text-left">One notable Quality of Life (QoL) improvement is the introduction of a new banlist, ideal for public FM-DX Webserver owners. Stay tuned for further updates!</p>
+                        <p class="text-left">One notable <strong>Quality of Life (QoL)</strong> improvement is the introduction of a new banlist, ideal for public FM-DX Webserver owners. Stay tuned for further updates!</p>
                         <p class="text-left">Additionally, we’ve made some UI enhancements:</p>
-                        <ul>
+                        <ul class="text-left">
                             <li>Status circles on FM-DX Webserver maps have been replaced with gradients, allowing more text to fit within the server list panel.</li>
                             <li>A new clustering feature ensures no server goes unnoticed on the map, especially when multiple servers are located nearby. This also improves performance—a great bonus!</li>
                         </ul>
@@ -70,7 +70,7 @@
                         <h3 class="color-main">VHF DX Podcast</h3>
                         <p class="text-left">Our friends at the VHF DX Podcast have invited Noobish to appear as a guest in the next episode! While the podcast primarily caters to American DXers, it has also featured Sjef in a previous episode, where many interesting questions were raised.</p>
                         <p>We’re excited for the upcoming episode—don’t miss it!</p>
-                        <ul>
+                        <ul class="text-left">
                             <li>Listen on <a href="https://open.spotify.com/show/0QWtETNePlWl3V0F7dU5Qw" class="color-main" target="_blank">Spotify</a></li>
                             <li>Listen on <a href="https://podcasts.apple.com/us/podcast/the-vhf-dx-podcast/id1582022639" class="color-main" target="_blank">Apple Podcasts</a></li>
                         </ul>
