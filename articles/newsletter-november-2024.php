@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-    $pageTitle = 'Newsletter - October 2024';
+    $pageTitle = 'Newsletter - November 2024';
     include($_SERVER['DOCUMENT_ROOT'].'/includes/header.php');
     ?>
     <body>
