@@ -26,7 +26,7 @@
                         </div>
 
                         <div class="article-content">
-                        <img src="https://i.imgur.com/L33fzqW.png" alt="Happy holidays! Let's make it special this year.">
+                        <img src="https://i.imgur.com/L33fzqW.png" alt="Happy holidays! Let's make it special this year." style="width: 100%">
                         <p class="text-left">'Tis the season of giving, and we’ve got a special treat just for you! To celebrate Christmas, we’re thrilled to announce an exciting giveaway.</p>
                         
                         <p class="text-left">This giveaways features three portable TEF6686 tuners (model DP-666) from DeepElec and five FMDX.org supporter tags!<br>
@@ -38,6 +38,8 @@
                             <li>Let us know why you’d love a TEF6686 receiver and what your DXing plans are!</li>
                             <li>Post your submissions in the designated #⁠🎅┊christmas-giveaway channel. One submission per user.</li>
                         </ul>
+
+                        <a href="https://discord.gg/ZAVNdS74mC" target="_blank"><img src="https://user-images.githubusercontent.com/66025667/196373934-2fad8760-a58d-4b4d-ad64-b069baa71823.png" alt="Join us on Discord"></a>
 
                         <p class="text-left">For the tuner giveaway, one winner will be picked randomly, while the best submissions will also have a chance to win. So, get creative and share your passion for DXing with the community!</p>
 
