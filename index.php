@@ -26,6 +26,23 @@
                     </div>
 
                     <article class="panel panel-big">
+                    <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/l2XY8Qz.png');">
+                            <div style="width: 100%;">
+                                <h2>Merry Christmas from FMDX.org!</h2>
+                                <p class="text-small-12 m-0">by Noobish<br>
+                                24th December 2024</p>
+                            </div>
+                            <div style="width: 100px;font-size:60px;" class="hide-phone">
+                            🎅
+                            </div>
+                        </div>
+                        <div style="padding: 20px 40px;">
+                            <p>'Tis the season of giving, and we’ve got a special treat just for you! To celebrate Christmas, we’re thrilled to announce an exciting giveaway.</p>
+                        </div>
+                        <a href="/articles/christmas-giveaway-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                    </article>
+
+                    <article class="panel panel-big">
                         <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/aL0cNnA.png');">
                             <div style="width: 100%;">
                                 <h2>Newsletter - November 2024</h2>
