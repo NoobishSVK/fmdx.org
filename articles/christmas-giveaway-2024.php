@@ -39,7 +39,7 @@
                             <li>Post your submissions in the designated #⁠🎅┊christmas-giveaway channel. One submission per user.</li>
                         </ul>
 
-                        <a href="https://discord.gg/ZAVNdS74mC" target="_blank"><img src="https://user-images.githubusercontent.com/66025667/196373934-2fad8760-a58d-4b4d-ad64-b069baa71823.png" alt="Join us on Discord"></a>
+                        <a href="https://discord.gg/ZAVNdS74mC" target="_blank"><img src="https://user-images.githubusercontent.com/66025667/196373934-2fad8760-a58d-4b4d-ad64-b069baa71823.png" alt="Join us on Discord" style="max-width: 60%;"></a>
 
                         <p class="text-left">For the tuner giveaway, one winner will be picked randomly, while the best submissions will also have a chance to win. So, get creative and share your passion for DXing with the community!</p>
 
