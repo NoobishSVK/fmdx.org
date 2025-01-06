@@ -65,7 +65,7 @@
                         Choosing only two people was very difficult, so every moderator and founder decided to post their top 3 based on the criteria. The 2 people with the most votes were the ones we ended up choosing.
                         We only voted based on the post itself, so previous activity (positive or negative) wasn't counted in any way. Since there were more people with amazing entries, we decided to give out extra supporter tags.</p>
 
-                        <p class="text-bold"><strong>To claim your prize, message Noobish on Discord by January 15th, 2025, under the Discord account you won with.</strong></p>
+                        <p class="text-bold">To claim your prize, message Noobish on Discord by January 15th, 2025, under the Discord account you won with.</p>
 
                         <h3 class="color-main">Winners!</h3>
                         <p class="text-left"><strong>Supporter tags (1 month):</strong> </p>
