@@ -26,6 +26,23 @@
                     </div>
 
                     <article class="panel panel-big">
+                    <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/1d7u3Ij.png');">
+                            <div style="width: 100%;">
+                                <h2>Year 2024 recap & giveaway winners!</h2>
+                                <p class="text-small-12 m-0">by Noobish & Aurie<br>
+                                6th January 2025</p>
+                            </div>
+                            <div style="width: 100px;font-size:60px;" class="hide-phone">
+                            🎊
+                            </div>
+                        </div>
+                        <div style="padding: 20px 40px;">
+                            <p>It's here, we made it through 2024. So, what did we manage to do in 2024?</p>
+                        </div>
+                        <a href="/articles/christmas-giveaway-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                    </article>
+
+                    <article class="panel panel-big">
                     <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/l2XY8Qz.png');">
                             <div style="width: 100%;">
                                 <h2>Merry Christmas from FMDX.org!</h2>

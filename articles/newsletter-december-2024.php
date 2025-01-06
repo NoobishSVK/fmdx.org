@@ -14,7 +14,7 @@
             <div class="flex-container">
                 <main>
                     <article class="panel panel-big text-center">
-                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/aL0cNnA.png');">
+                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/1d7u3Ij.png');">
                             <div style="width: 100%;">
                                 <h2>Year 2024 Recap & Giveaway winners!</h2>
                                 <p class="text-small-12 m-0">by Noobish & Aurie<br>
@@ -42,7 +42,7 @@
                         <h4 class="color-main">Headless TEF & TEF Firmware</h4>
                         <p class="text-left">The headless TEF receiver, featuring the powerful TEF6687 chip and multiple antenna inputs, has also made waves in 2024.
                             Many DXers have adopted this advanced hardware designed by Konrad Kosmatka & Sjef Verhoeven, enabling them to catch distant signals with remarkable clarity and reduced interference.
-                            It’s worth noting that the ESP32 TEF firmware has reached version 2, a significant milestone in its development. Sjef Verhoeven, one of our founders and most important contributors, continues to work tirelessly on bug fixes and new features as we speak.
+                            It’s worth noting that the ESP32 TEF firmware has reached version 2, a significant milestone in its development. Sjef, one of our founders and most important contributors, continues to work tirelessly on bug fixes and new features as we speak.
                         </p>
 
                         <h4 class="color-main">VHF DX Podcast</h4>
@@ -58,14 +58,14 @@
 
                         <h3 class="color-main">Christmas giveaway winners</h3>
                         <p class="text-left">As many of you already know, we hosted a giveaway of multiple supporter tags for our Discord members, along with 3 winners of the TEFs.<br>
-                            This giveaway consisted of 2 parts, the first one was random and all you needed was a bit of luck. The second one was way more difficult to deal with.<br>
-                            The task was simple, yet very interesting - simply post your favourite DX spot, ideally with a nice description and some pictures. We had the opportunity to choose 2 winners.</p>
+                            This giveaway consisted of 2 parts. The first part was random, and all you needed was a bit of luck. The second part was much more difficult.<br>
+                            The task was simple, yet very interesting – simply post your favourite DX spot, ideally with a nice description and some pictures. We had the opportunity to choose 2 winners.</p>
                             
-                        <p class="text-left">We chose the winners based on (but not limited to) this criteria: post description quality, picture quality, how interesting was the spot itself<br><br>
-                        Choosing only two people was very difficult, so every moderator and founder decided to post their top 3 based on the criteria, and the 2 people with most votes were the chosen ones.
-                        We only voted based on the post itself, so previous activity (positive or negative) wasn't counted in any way. And since there were more people, we have decided to gift some more supporter tags.<p>
+                        <p class="text-left">We chose the winners based on (but not limited to) the following criteria: post description quality, picture quality, and how interesting the spot itself was.<br><br>
+                        Choosing only two people was very difficult, so every moderator and founder decided to post their top 3 based on the criteria. The 2 people with the most votes were the ones we ended up choosing.
+                        We only voted based on the post itself, so previous activity (positive or negative) wasn't counted in any way. Since there were more people with amazing entries, we decided to give out extra supporter tags.</p>
 
-                        <p class="text-bold"><strong>To claim your prize, message Noobish on Discord until 15th of January 2025 under the Discord account you won with.</strong><p>
+                        <p class="text-bold"><strong>To claim your prize, message Noobish on Discord by January 15th, 2025, under the Discord account you won with.</strong></p>
 
                         <h3 class="color-main">Winners!</h3>
                         <p class="text-left"><strong>Supporter tags (1 month):</strong> </p>
@@ -78,9 +78,9 @@
                             </ul>
                         <p class="text-left"><strong>Supporter tag (6 months): </strong>confettijr2009</p>
                         <p class="text-left"><strong>TEF winners (based on post): </strong>lucasgallone, claudiuneferu2</span></p>
-                    <p class="text-left"><strong>TEF winners (based on the wheel of luck): </strong>mcelliotg</p>
+                        <p class="text-left"><strong>TEF winners (based on the wheel of luck): </strong>mcelliotg</p>
 
-                        <p class="text-left">Since so many posts were really good, we have also decided to gift these people the supporter for either being in the top 3 of the giveaway wheel, or based on their post quality!</p>
+                        <p class="text-left">Since so many posts were really good, we have also decided to gift these people the supporter tag for either being in the top 3 of the giveaway wheel or based on their post quality!</p>
                         <p class="text-left text-bold">Supporter tags (1 month) - extra winners: </p>
                             <ul class="text-left">
                                 <li>noahkug</li>
@@ -91,14 +91,15 @@
                                 <li>armandinodx_26041</li>
                                 <li>markz_9a</li>
                             </ul>
-                        
+
                         <h3 class="color-main">Congratulations to everyone!</h3>
 
-                        <p class="text-left">Thank you for joining the giveaway - it was a blast. We really appreciate the tremendous amount of activity FMDX.org is getting and we will definitely love to see more in 2025!</p>
+                        <p class="text-left">Thank you for joining the giveaway – it was a blast. We really appreciate the tremendous amount of activity FMDX.org is getting, and we are definitely excited to see more in 2025!</p>
 
                         <h3 class="color-main">What's coming in 2025?</h3>
-                        <p class="text-left">It's the beginning of the year, however our community has started working on DAB DX Webserver and more important stuff. It's going to get really exciting!</p>
+                        <p class="text-left">It's the beginning of the year, and our community has already started working on the DAB DX Webserver and other important projects. It's going to get really exciting!</p>
                         <br>
+
                         <img src="/img/logo.png" alt="OpenRadio Logo">
                         <p>If you have any feedback (positive or negative), please let us know through our Discord server or via e-mail to founders! And as per usual, see you next month.</p>
                         <br>
