@@ -39,7 +39,7 @@
                         <div style="padding: 20px 40px;">
                             <p>It's here, we made it through 2024. So, what did we manage to do in 2024?</p>
                         </div>
-                        <a href="/articles/christmas-giveaway-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                        <a href="/articles/newsletter-december-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
                     </article>
 
                     <article class="panel panel-big">
