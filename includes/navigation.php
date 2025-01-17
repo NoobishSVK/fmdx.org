@@ -1,6 +1,6 @@
 <nav>
     <ul class="hide-phone">
-        <li style="margin-right: 32px;"><a href="/index.php" class="flex-container"><img src="/img/logo.png" alt="Logo" height="32px"></a></li>
+        <li style="margin-right: 32px;"><a href="/index.php" class="flex-container flex-center-vertically"><img src="/img/logo.png" alt="Logo" height="32px"></a></li>
         <li>About <i class="fa-solid fa-chevron-down m-left-10 text-small"></i>
             <ul>
                 <li><a href="/ourmission.php">Our mission</a></li>
