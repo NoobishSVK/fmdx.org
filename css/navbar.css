@@ -216,7 +216,7 @@ footer ul {
     opacity: 0;
     visibility: hidden;
     transition: visibility 0s, opacity 0.5s ease, max-height 0.5s ease-out;
-    padding-left: 10px;
+    padding-left: 0;
     background: var(--color-bg);
     z-index: 3;
 }
