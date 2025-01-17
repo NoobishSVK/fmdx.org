@@ -25,7 +25,11 @@ nav > ul > li {
     position: relative; /* Position relative for submenu positioning */
 }
 
+/* Modify this to ensure the <a> takes full width and height of its parent <li> */
 nav ul li a {
+    display: block;          /* Makes the <a> a block-level element, filling the width */
+    width: 100%;             /* Ensure <a> takes full width of the <li> */
+    height: 100%;            /* Ensure <a> takes full height of the <li> */
     color: var(--color-main);
     text-decoration: none;
 }
