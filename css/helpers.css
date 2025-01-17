@@ -16,6 +16,9 @@
     align-items: center;
 }
 
+.flex-center-vertically {
+    align-items: center;
+}
 .circle {
     border-radius: 50%;
 }
