@@ -2,7 +2,7 @@ nav {
     width: 100%;
     background-color: var(--color-bg);
     color: var(--color-main);
-    padding-top: 20px;
+    margin-top: 20px;
     border-radius: 15px;
     padding-left: 15px;
     padding-right: 15px;
