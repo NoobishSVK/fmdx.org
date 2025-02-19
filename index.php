@@ -2,8 +2,8 @@
 <html lang="en">
     <?php include 'includes/header.php';?>
     <body>
-        <?php include 'includes/navigation.php';?>
         <div id="wrapper">
+            <?php include 'includes/navigation.php';?>
             <div class="flex-container flex-center">
                 <div class="tx-icon"></div>
                 <h1>Welcome to <span class="color-main text-bold">FMDX.org</span>!</h1>
