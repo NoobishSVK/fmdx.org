@@ -16,7 +16,7 @@
                     <article class="panel panel-big text-center">
                         <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/gQmwMry.jpeg');">
                             <div style="width: 100%;">
-                                <h2><?php echo $pageTItle ?></h2>
+                                <h2><?php echo $pageTitle ?></h2>
                                 <p class="text-small-12 m-0">by Noobish<br>
                                 7th March 2025</p>
                             </div>
