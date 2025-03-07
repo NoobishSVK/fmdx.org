@@ -33,7 +33,7 @@
                                 7th March 2025</p>
                             </div>
                             <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            🎊
+                            ❄️
                             </div>
                         </div>
                         <div style="padding: 20px 40px;">
