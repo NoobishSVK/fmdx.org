@@ -1,12 +1,7 @@
 <?php
-
-// Include your configuration file where the $bmac_api_key is defined
 include $_SERVER['DOCUMENT_ROOT'] . '/config.php';
-
-// Define cache duration in seconds (e.g., 300 seconds = 5 minutes)
 define('CACHE_DURATION', 300);
 
-// Function to fetch data from a specific API endpoint with caching
 function fetch_data_from_api($api_key, $endpoint) {
     $cache_file = $_SERVER['DOCUMENT_ROOT'] . '/cache/' . md5($endpoint) . '.json';
     
@@ -49,19 +44,16 @@ function fetch_data_from_api($api_key, $endpoint) {
     return json_decode($response, true);
 }
 
-// Function to calculate the total amount from supporters and subscriptions
 function get_total_amount_last_30_days() {
     global $bmac_api_key;
 
-    // Fetch data from both supporters and subscriptions endpoints
     $supporters_data = fetch_data_from_api($bmac_api_key, 'supporters');
     $subscriptions_data = fetch_data_from_api($bmac_api_key, 'subscriptions');
 
     $total_amount = 0;
 
-// Calculate total from supporters
 if (isset($supporters_data) && is_array($supporters_data)) {
-    foreach ($supporters_data['data'] as $supporter) { // Ensure you're iterating over 'data' array
+    foreach ($supporters_data['data'] as $supporter) {
         if (is_array($supporter) && isset($supporter['support_coffee_price'])) {
             $total_amount += (float)$supporter['support_coffee_price'];
         } else {
@@ -69,8 +61,6 @@ if (isset($supporters_data) && is_array($supporters_data)) {
             print_r($supporter);
         }
     }
-} else {
-    echo "Error: Supporters data is not an array.";
 }
 
 
@@ -81,11 +71,8 @@ if (isset($supporters_data) && is_array($supporters_data)) {
                 $total_amount += (float)$subscription['subscription_coffee_price'];
             }
         }
-    } else {
-        echo "Error: Subscriptions data is not an array or 'data' is not set.";
     }
 
-    // Return the total amount
     return number_format($total_amount, 0) . ' €';
 }
 
