@@ -40,7 +40,7 @@
         <div class="footer-menu">
             <h4>Credits</h4>
             <ul>
-                <li>Background by Lucas Gallone &copy;</li>
+                <li>Background by <a href="https://unsplash.com/@lucasgallone" target="_blank" class="color-main">Lucas Gallone</a> &copy;</li>
             </ul>
         </div>
         <div class="footer-menu">
@@ -50,7 +50,7 @@
 
     <div class="text-center">
         <img src="/img/logo.png" alt="Logo" height="32px">
-        <p class="m-0">All of our data is free to use, but please, do mention us if possible.</p>
+        <p class="m-0">Website content is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/deed.en" target="_blank">Creative Commons Attribution 4.0</a> license.</p>
         <p class="m-0 text-small color-gray p-bottom-20">FMDX.org • since 2024</p>
     </div>
 </footer>
