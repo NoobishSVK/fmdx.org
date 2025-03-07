@@ -48,16 +48,16 @@
 
                         <h3 class="color-main">Headless TEF sale</h3>
                         <p class="text-left">The first official e-shop has started providing Headless TEFs for sale, these are sold at a slightly higher price than what our community members offer, however this price includes EU VAT and also a 2 year warranty. If you don't feel like waiting for more offers of Headless TEFs, you can grab one from here: </p>
-                        <p class="text-left"><a href="https://www.dxc.cz/eshop/headless-tef-tuner-kit/" target="_blank">DXC.cz e-shop</a> or alternatively for worldwide shipping, send a request to <strong>dxc@dxc.cz</strong></p>
+                        <p class="text-left"><a href="https://www.dxc.cz/eshop/headless-tef-tuner-kit/" target="_blank" class="color-main">DXC.cz e-shop</a> or alternatively for worldwide shipping, send a request to <strong>dxc@dxc.cz</strong></p>
 
                         <h3 class="color-main">Project updates</h3>
                         <p class="text-left">We have started development on a tool called <strong>FM-DX Monitoring</strong>. With this tool, you can keep an up-to-date bandscan of your entire FM band, including handy stats with charts and a visual spectrum chart. This tool works by querying a webserver API and collecting data, which is then displayed.
                         The UI design was partially inspired by PIRA.cz monitoring tool.<br>
-                        <a href="https://github.com/noobishsvk/fm-dx-monitoring" target="_blank">FM-DX Monitoring GitHub</a></p>
+                        <a href="https://github.com/noobishsvk/fm-dx-monitoring" target="_blank" class="color-main">FM-DX Monitoring GitHub</a></p>
                         <p class="text-left"><strong>FM-DX Webserver</strong> received a few updates over the last few weeks including important security bugfixes and UI updates - especially a new top bar, which needs less screen estate and allows the plugin developers to add their plugins to the said panel easily. With this, we have also decided to replace the original signal chart with a new one, which matches the display's refresh rate, ensuring smooth experience.</p>
                         <p class="text-left">The <strong>ESP32 TEF v1 firmware</strong> is currently rolling out with release candidate updates. With this, a <strong>full major version release is coming soon</strong>, including many new features and bugfixes, a complete changelog will be available once the full version is officially released.</p>
                         <p class="text-left">With the ESP32 TEF v1 beta updates, our community member <strong>HIGHPOINT</strong> made an <strong>Android TEF logger app</strong>. You can just go hike and leave the TEF in your backpack and tune it remotely with your phone and save your logs. How amazing is that? You can try this app here:
-                        <a href="https://github.com/Highpoint2000/TEFLoggerApp" target="_blank">TEF Logger GitHub</a></p>
+                        <a href="https://github.com/Highpoint2000/TEFLoggerApp" target="_blank" class="color-main">TEF Logger GitHub</a></p>
 
                         <h3 class="color-main">Community</h3>
                         <p class="text-left">Our Discord server received a slight overhaul, as we wanted to make it less confusing for new users - so far the results are amazing and it seems like everyone in the community feels way more comfortable with the current settings. With this, we would also like to thank our Discord moderators for their amazing job keeping the community civil & friendly.</p>
