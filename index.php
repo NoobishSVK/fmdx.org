@@ -26,6 +26,23 @@
                     </div>
 
                     <article class="panel panel-big">
+                    <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/gQmwMry.jpeg');">
+                            <div style="width: 100%;">
+                                <h2>Newsletter - January & February 2025</h2>
+                                <p class="text-small-12 m-0">by Noobish <br>
+                                7th March 2025</p>
+                            </div>
+                            <div style="width: 100px;font-size:60px;" class="hide-phone">
+                            🎊
+                            </div>
+                        </div>
+                        <div style="padding: 20px 40px;">
+                            <p>Hello! Long time no see, 2025 is off to a wild start and there are lots of things to cover - achievements, updates and more. Let's dive in.</p>
+                        </div>
+                        <a href="/articles/newsletter-jan-feb-2025.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                    </article>
+
+                    <article class="panel panel-big">
                     <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/1d7u3Ij.png');">
                             <div style="width: 100%;">
                                 <h2>Year 2024 recap & giveaway winners!</h2>
@@ -110,79 +127,6 @@
                         <a href="/articles/newsletter-september-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
                     </article>
 
-                    <article class="panel panel-big">
-                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/eIUArzi.jpeg');">
-                            <div style="width: 100%;">
-                                <h2>Newsletter - August 2024</h2>
-                                <p class="text-small-12 m-0">by Noobish<br>
-                                28th August 2024</p>
-                            </div>
-                            <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            ☀️
-                            </div>
-                        </div>
-                        <div style="padding: 20px 40px;">
-                            <p>Summer is coming to its end, and so are the meetups for this year. Does that mean more content for you?</p>
-                        </div>
-                        <a href="/articles/newsletter-august-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
-                    </article>
-
-                    <!--<article class="panel panel-big">
-                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/TZf635l.png');">
-                            <div style="width: 100%;">
-                                <h2>Newsletter - June/July 2024</h2>
-                                <p class="text-small-12 m-0">by Noobish<br>
-                                8th July 2024</p>
-                            </div>
-                            <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            ✨
-                            </div>
-                        </div>
-                        <div style="padding: 20px 40px;">
-                            <p>Hot summer for European DXers, cold winter for the DXers down under. Lots of sporadic E, and of course, news from the FMDX team!</p>
-                        </div>
-                        <a href="/articles/newsletter-june-july-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
-                    </article>
-
-                    <article class="panel panel-big">
-                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/gAEwbXH.jpeg');">
-                            <div style="width: 100%;">
-                                <h2>New website launched!</h2>
-                                <p class="text-small-12 m-0">by Noobish<br>
-                                27th May 2024</p>
-                            </div>
-                            <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            🥳
-                            </div>
-                        </div>
-                        <div style="padding: 20px 40px;">
-                            <p>Today is a great day! We have launched our new website. It might still undergo a lot of changes, however you won’t lose
-                            any access to the content that is already available. We’re keeping everything open!</p>
-
-                            <p>You can currently find comprehensive information about our projects and team members, we recommend you to explore
-                            everything!</p>
-                        </div>
-                        <a href="/articles/new-website.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
-                    </article>-->
-
-                    <!--<article class="panel panel-big">
-                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/rglsL3c.jpeg');">
-                            <div style="width: 100%;">
-                                <h2>Newsletter - May 2024</h2>
-                                <p class="text-small-12 m-0">by Noobish<br>
-                                19th May 2024</p>
-                            </div>
-                            <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            😎
-                            </div>
-                        </div>
-                        <div style="padding: 20px 40px;">
-                            <p>Hello! It's May, what a beautiful time of the year - in spite of the lack of Sporadic E openings.</p>
-
-                            <p>In this newsletter we will discuss some changes related to our community and the website itself, as big things are coming.</p>
-                        </div>
-                        <a href="/articles/newsletter-may-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
-                    </article>-->
                     <button class="btn-rounded m-auto disabled" style="background-color: #333;">Read more news</button>
                 </main> 
                 <?php include 'includes/sidepanels.php';?>
