@@ -41,7 +41,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/tools/bmac.php';
                     <td id="muf-na" style="padding-top: 4px;"></td>
                 </tr>
                 <tr>
-                    <td class="text-bold" style="padding-right: 10px;">NA</td>
+                    <td class="text-bold" style="padding-right: 10px;">AU</td>
                     <td id="muf-au" style="padding-top: 4px;"></td>
                 </tr>
             </tbody>
