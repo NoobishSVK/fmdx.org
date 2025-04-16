@@ -49,8 +49,10 @@ $one_hour_ago->modify('-1 hour');
 // Define arrays to hold frequencies and last log times for each region
 $frequencies_north_america = [];
 $frequencies_europe = [];
+$frequencies_australia = [];
 $last_log_north_america = null;
 $last_log_europe = null;
+$last_log_australia = null;
 
 // Function to check if a QTH locator is in North America
 function isNorthAmerica($qth) {
@@ -62,6 +64,12 @@ function isNorthAmerica($qth) {
 function isEurope($qth) {
     $prefix = substr($qth, 0, 2);
     return ($prefix >= 'HM' && $prefix <= 'LQ');
+}
+
+// Function to check if a QTH locator is in Australia
+function isAustralia($qth) {
+    $prefix = substr($qth, 0, 2);
+    return ($prefix >= 'QF' && $prefix <= 'RK');
 }
 
 // Filter and classify the entries
@@ -78,6 +86,11 @@ foreach ($entries as $entry) {
             if ($last_log_europe === null || $entry_time > $last_log_europe) {
                 $last_log_europe = $entry_time;
             }
+        } elseif (isAustralia($entry['qth_receiver'])) {
+            $frequencies_australia[] = $entry['frequency'];
+            if ($last_log_australia === null || $entry_time > $last_log_australia) {
+                $last_log_australia = $entry_time;
+            }
         }
     }
 }
@@ -85,17 +98,21 @@ foreach ($entries as $entry) {
 // Calculate the maximum frequency for each region
 $max_freq_north_america = !empty($frequencies_north_america) ? max($frequencies_north_america) : 'No data';
 $max_freq_europe = !empty($frequencies_europe) ? max($frequencies_europe) : 'No data';
+$max_freq_australia = !empty($frequencies_australia) ? max($frequencies_australia) : 'No data';
 
 $max_freq_north_america_rounded = is_numeric($max_freq_north_america) ? round($max_freq_north_america / 1000) : 'No data';
 $max_freq_europe_rounded = is_numeric($max_freq_europe) ? round($max_freq_europe / 1000) : 'No data';
+$max_freq_australia_rounded = is_numeric($max_freq_australia) ? round($max_freq_australia / 1000) : 'No data';
 
 // Calculate the time difference in minutes for last log time for each region
 $last_log_diff_north_america = $last_log_north_america ? $current_time->getTimestamp() - $last_log_north_america->getTimestamp() : null;
 $last_log_diff_europe = $last_log_europe ? $current_time->getTimestamp() - $last_log_europe->getTimestamp() : null;
+$last_log_diff_australia = $last_log_australia ? $current_time->getTimestamp() - $last_log_australia->getTimestamp() : null;
 
 // Format the last log times as minutes ago
 $last_log_north_america_str = $last_log_diff_north_america !== null ? ($last_log_diff_north_america < 60 ? 'a minute ago' : floor($last_log_diff_north_america / 60) . " minutes ago") : 'No data';
 $last_log_europe_str = $last_log_diff_europe !== null ? ($last_log_diff_europe < 60 ? 'a minute ago' : floor($last_log_diff_europe / 60) . " minutes ago") : 'No data';
+$last_log_australia_str = $last_log_diff_australia !== null ? ($last_log_diff_australia < 60 ? 'a minute ago' : floor($last_log_diff_australia / 60) . " minutes ago") : 'No data';
 
 // Prepare the response
 $response = [
@@ -106,6 +123,10 @@ $response = [
     'europe' => [
         'max_frequency' => $max_freq_europe_rounded,
         'last_log' => $last_log_europe_str
+    ],
+    'australia' => [
+        'max_frequency' => $max_freq_australia_rounded,
+        'last_log' => $last_log_australia_str
     ]
 ];
 
@@ -114,5 +135,4 @@ file_put_contents($cache_file, json_encode($response));
 
 // Output the response in JSON format
 echo json_encode($response);
-
 ?>

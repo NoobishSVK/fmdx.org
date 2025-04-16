@@ -40,6 +40,10 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/tools/bmac.php';
                     <td class="text-bold" style="padding-right: 10px;">NA</td>
                     <td id="muf-na" style="padding-top: 4px;"></td>
                 </tr>
+                <tr>
+                    <td class="text-bold" style="padding-right: 10px;">NA</td>
+                    <td id="muf-au" style="padding-top: 4px;"></td>
+                </tr>
             </tbody>
         </table>
         <p style="font-size: 14px" class="text-center"><a href="https://fmlist.org" target="_blank"><span class="color-main">[ </span>Data from FMLIST.org<span class="color-main"> ]</span></a></p>
