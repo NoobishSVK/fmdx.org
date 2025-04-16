@@ -28,7 +28,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/tools/bmac.php';
         </p>
     </div>
 
-    <!--<div class="panel panel-small">
+    <div class="panel panel-small">
         <h2>Sporadic E Status</h2>
         <table>
             <tbody>
@@ -43,7 +43,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/tools/bmac.php';
             </tbody>
         </table>
         <p style="font-size: 14px" class="text-center"><a href="https://fmlist.org" target="_blank"><span class="color-main">[ </span>Data from FMLIST.org<span class="color-main"> ]</span></a></p>
-    </div>-->
+    </div>
 
     <div class="panel panel-small text-center">
         <h2>Supporters</h2>
