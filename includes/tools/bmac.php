@@ -1,6 +1,6 @@
 <?php
 include $_SERVER['DOCUMENT_ROOT'] . '/config.php';
-define('CACHE_DURATION', 300);
+define('CACHE_DURATION', 3600);
 
 function fetch_data_from_api($api_key, $endpoint) {
     $cache_file = $_SERVER['DOCUMENT_ROOT'] . '/cache/' . md5($endpoint) . '.json';
