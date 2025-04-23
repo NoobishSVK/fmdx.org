@@ -28,6 +28,7 @@
             <h4>Community</h4>
             <ul>
                 <li><a href="https://discord.gg/ZAVNdS74mC" target="_blank" style="text-decoration: none;">Discord  <i class="fa-brands fa-discord m-left-10 text-small"></i></a></li>
+                <li><a href="https://facebook.com/fmdx.org" target="_blank" style="text-decoration: none;">Facebook  <i class="fa-brands fa-facebook m-left-10 text-small"></i></a></li>
             </ul>
 
             <h4>Miscellaneous</h4>

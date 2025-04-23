@@ -30,6 +30,7 @@
         <li>Community <i class="fa-solid fa-chevron-down m-left-10 text-small"></i>
             <ul>
                 <li><a href="https://discord.gg/ZAVNdS74mC" target="_blank" style="text-decoration: none;">Discord  <i class="fa-brands fa-discord m-left-10 text-small"></i></a></li>
+                <li><a href="https://www.facebook.com/fmdx.org" target="_blank" style="text-decoration: none;">Facebook  <i class="fa-brands fa-facebook m-left-10 text-small"></i></a></li>
             </ul>
         </li>
         <li>Guide <i class="fa-solid fa-chevron-down m-left-10 text-small"></i>
@@ -66,6 +67,13 @@
                 <li><a href="/ourmission.php">Our mission</a></li>
                 <li><a href="/founders.php">Founders</a></li>
                 <li><a href="/supportus.php">Support us!</a></li>
+            </ul>
+        </li>
+        <li class="menu-item">
+            <div class="onclick-menu">Community  <i class="fa-solid fa-chevron-down m-left-10"></i></div>
+            <ul class="onclick-menu-content">
+                <li><a href="https://discord.gg/ZAVNdS74mC" target="_blank" style="text-decoration: none;">Discord  <i class="fa-brands fa-discord m-left-10 text-small"></i></a></li>
+                <li><a href="https://www.facebook.com/fmdx.org" target="_blank" style="text-decoration: none;">Facebook  <i class="fa-brands fa-facebook m-left-10 text-small"></i></a></li>
             </ul>
         </li>
         <li class="menu-item">
