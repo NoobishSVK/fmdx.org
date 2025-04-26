@@ -29,7 +29,7 @@
                         <p class="text-left">We know you love news, and you also love keeping in touch with our projects. Here are our goals for the rest of the year 2025 and the future in general.</p>
 
                         <p class="text-left">We will provide a general picture of our goals - if you prefer the regular text form, scroll down for more.</p>
-                        <img src="https://i.imgur.com/2t1Z3Z9.jpeg" alt="Timeline for 2025">
+                        <img src="https://i.imgur.com/2t1Z3Z9.jpeg" alt="Timeline for 2025" style="width: 100%;">
 
                         <h3 class="color-main">Q2 2025</h3>
                         <h4>Webserver Phone UI 2.0</h4>
