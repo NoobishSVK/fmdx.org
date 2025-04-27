@@ -26,6 +26,23 @@
                     </div>
 
                     <article class="panel panel-big">
+                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/62L2ui4.jpeg');">
+                            <div style="width: 100%;">
+                                <h2>Newsletter - March @ April 2025</h2>
+                                <p class="text-small-12 m-0">by Noobish<br>
+                                27th April 2025</p>
+                            </div>
+                            <div style="width: 100px;font-size:60px;" class="hide-phone">
+                            🌱
+                            </div>
+                        </div>
+                        <div style="padding: 20px 40px;">
+                            <p>It’s time to catch up on all the exciting news happening at FMDX.org! With the Sporadic-E season just around the corner, we have been busy preparing many cool updates for you.</p>
+                        </div>
+                        <a href="/articles/newsletter-mar-apr-2025.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                    </article>
+
+                    <article class="panel panel-big">
                     <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/WJjxpVf.jpeg');">
                             <div style="width: 100%;">
                                 <h2>Our goals & timeline for 2025</h2>
@@ -106,23 +123,6 @@
                         </div>
                         <div style="padding: 20px 40px;">
                             <p>As we approach the end of 2024, November is nearly behind us. Let’s take a moment to recap the highlights of this past month.</p>
-                        </div>
-                        <a href="/articles/newsletter-october-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
-                    </article>
-
-                    <article class="panel panel-big">
-                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/BtyI7eE.jpeg');">
-                            <div style="width: 100%;">
-                                <h2>Newsletter - October 2024</h2>
-                                <p class="text-small-12 m-0">by Noobish<br>
-                                28th October 2024</p>
-                            </div>
-                            <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            🧣
-                            </div>
-                        </div>
-                        <div style="padding: 20px 40px;">
-                            <p>Time flies! It’s already October, and we have some exciting news to share. This month, we’ll be talking about new milestones, anniversaries, and our plans for the future.</p>
                         </div>
                         <a href="/articles/newsletter-october-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
                     </article>
