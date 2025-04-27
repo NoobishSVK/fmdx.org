@@ -28,7 +28,7 @@
                     <article class="panel panel-big">
                         <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/62L2ui4.jpeg');">
                             <div style="width: 100%;">
-                                <h2>Newsletter - March @ April 2025</h2>
+                                <h2>Newsletter - March & April 2025</h2>
                                 <p class="text-small-12 m-0">by Noobish<br>
                                 27th April 2025</p>
                             </div>

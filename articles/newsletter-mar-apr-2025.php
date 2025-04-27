@@ -44,10 +44,7 @@
                                 <li>Official support for the DeepElec DP-666 receiver</li>
                                 <li>A new Logbook feature</li>
                                 <li>Full touchscreen support</li>
-                                <li>kb8u</li>
-                                <li>yobborobbo21</li>
-                                <li>armandinodx_26041</li>
-                                <li>Many bug fixes and performance improvements</li>
+                                <li>A pack of bug fixes & optimization!</li>
                             </ul>
                         <p class="text-left">You can check out the full changelog and download the update here: <a href="https://github.com/PE5PVB/TEF6686_ESP32/releases/tag/v2.20" target="_blank" class="color-main">👉 v2.20 Release Notes</a></p>
 
@@ -57,6 +54,8 @@
                         <p class="text-left">Congratulations to <strong>Gyurii91 on Discord</strong> for winning!<br>
                         Here’s the winning birthday card:</p>
 
+                        <img src="https://i.imgur.com/AhRCUq4.jpeg" style="width: 100%" alt="Winning birthday card">
+
                         <h3 class="color-main">New tool: TEF Memory Manager</h3>
                         <p class="text-left">Looking for an easier way to manage your TEF receiver memories?<br>
                         Check out the brand-new TEF ESP32 Manager tool by <strong>dermister</strong>!<br>
@@ -64,8 +63,8 @@
                         <p class="text-left"><a href="https://github.com/antonioag95/tef_memory_manager" target="_blank" class="color-main">TEF Manager GitHub</a></p>
 
                         <h3 class="color-main">What's coming in the future?</h3>
-                        <p class="text-left">We made a comprehensive timeline of major things we are planning to do during this year. Check it out <p class="text-left"><a href="https://fmdx.org/articles/timeline-2025.php" target="_blank" class="color-main">here</a>!</p>
-                        <br>
+                        <p class="text-left">We made a comprehensive timeline of major things we are planning to do during this year. <br>
+                        Check it out <p class="text-left"><a href="https://fmdx.org/articles/timeline-2025.php" target="_blank" class="color-main">here</a>!</p>
                         <p class="text-left">Hope you enjoy all the updates! Let's get ready for an exciting Sporadic-E season ahead!</p>
                         <br>
                         <img src="/img/logo.png" alt="OpenRadio Logo">
