@@ -32,7 +32,7 @@
 
                         <a href="https://github.com/kkonradpl/xdr-gtk/releases" target="_blank"><button class="btn-small m-auto">Download XDR-GTK</button></a>
                         <br>
-                        <a href="https://fmdx.pl/xdr-gtk/" target="_blank">More info & hotkey list</a>
+                        <a href="https://pl.fmdx.org/xdr-gtk/" target="_blank">More info & hotkey list</a>
                         <br>
                         <hr>
                         <p>This project was created by <a href="/founders.php" class="text-bold color-main">Konrad Kosmatka (kkonradpl)</a>.<br>If you'd like to support the creator directly, please use the button below.</p>
