@@ -64,7 +64,7 @@
 
                         <h3 class="color-main">What's coming in the future?</h3>
                         <p class="text-left">We made a comprehensive timeline of major things we are planning to do during this year. <br>
-                        Check it out <p class="text-left"><a href="https://fmdx.org/articles/timeline-2025.php" target="_blank" class="color-main">here</a>!</p>
+                        <p class="text-left">Check it out <a href="https://fmdx.org/articles/timeline-2025.php" target="_blank" class="color-main">here</a>!</p>
                         <p class="text-left">Hope you enjoy all the updates! Let's get ready for an exciting Sporadic-E season ahead!</p>
                         <br>
                         <img src="/img/logo.png" alt="OpenRadio Logo">
