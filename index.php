@@ -26,6 +26,23 @@
                     </div>
 
                     <article class="panel panel-big">
+                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/FwaPEuq.jpeg');">
+                            <div style="width: 100%;">
+                                <h2>Our new TEF release!</h2>
+                                <p class="text-small-12 m-0">by Noobish & PE5PVB<br>
+                                21st May 2025</p>
+                            </div>
+                            <div style="width: 100px;font-size:60px;" class="hide-phone">
+                            💡
+                            </div>
+                        </div>
+                        <div style="padding: 20px 40px;">
+                            <p>We know you have been guessing what the new TEF might be. We think it's been brewed to perfection and now it's time for the TEF to see the sunlight for the first time.</p>
+                        </div>
+                        <a href="/articles/headless-tef-lite-release.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                    </article>
+
+                    <article class="panel panel-big">
                         <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/62L2ui4.jpeg');">
                             <div style="width: 100%;">
                                 <h2>Newsletter - March & April 2025</h2>
@@ -108,23 +125,6 @@
                             <p>'Tis the season of giving, and we’ve got a special treat just for you! To celebrate Christmas, we’re thrilled to announce an exciting giveaway.</p>
                         </div>
                         <a href="/articles/christmas-giveaway-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
-                    </article>
-
-                    <article class="panel panel-big">
-                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/aL0cNnA.png');">
-                            <div style="width: 100%;">
-                                <h2>Newsletter - November 2024</h2>
-                                <p class="text-small-12 m-0">by Noobish<br>
-                                30th November 2024</p>
-                            </div>
-                            <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            🍂
-                            </div>
-                        </div>
-                        <div style="padding: 20px 40px;">
-                            <p>As we approach the end of 2024, November is nearly behind us. Let’s take a moment to recap the highlights of this past month.</p>
-                        </div>
-                        <a href="/articles/newsletter-october-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
                     </article>
 
                     <button class="btn-rounded m-auto disabled" style="background-color: #333;">Read more news</button>
