@@ -77,10 +77,10 @@
                         <p class="text-left">There are currently no 3D enclosures. If you design one, we might reward you! However, we will make a separate announcement for this.</p>
                         
                         <h3 class="color-main">How can I build one?</h3>
-                        <p class="text-left">You can find the entire repository on our <a href="https://github.com/FMDX-org/headless-tef-lite" target="_blank">GitHub page by clicking here</a>.</p>
+                        <p class="text-left">You can find the entire repository on our <a href="https://github.com/FMDX-org/headless-tef-lite" target="_blank" class="color-main">GitHub page by clicking here</a>.</p>
 
                         <h3 class="color-main">Need a demo?</h3>
-                        <p class="text-left">we have a FM-DX Webserver instance running a Headless TEF Lite already! <a href="http://tef2.noobish.eu:42070" target="_blank">Try it out here</a>!</p>
+                        <p class="text-left">We have a FM-DX Webserver instance running a Headless TEF Lite already. <a href="http://tef2.noobish.eu:42070" target="_blank" class="color-main">Try it out here</a>!</p>
 
                         <br>
                         <img src="/img/logo.png" alt="OpenRadio Logo">
