@@ -75,6 +75,9 @@
                         <p class="text-left">The first few units will be available on our Discord's marketplace for you to buy. The expected sale price is around 50€ + shipping from EU, however this may vary by seller.<br>
                         These devices are also much easier to build.</p>
                         <p class="text-left">There are currently no 3D enclosures. If you design one, we might reward you! However, we will make a separate announcement for this.</p>
+                        
+                        <h3 class="color-main">How can I build one?</h3>
+                        <p class="text-left">You can find the entire repository on our <a href="https://github.com/FMDX-org/headless-tef-lite" target="_blank">GitHub page by clicking here</a>.</p>
 
                         <br>
                         <img src="/img/logo.png" alt="OpenRadio Logo">
