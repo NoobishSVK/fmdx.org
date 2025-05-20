@@ -79,6 +79,9 @@
                         <h3 class="color-main">How can I build one?</h3>
                         <p class="text-left">You can find the entire repository on our <a href="https://github.com/FMDX-org/headless-tef-lite" target="_blank">GitHub page by clicking here</a>.</p>
 
+                        <h3 class="color-main">Need a demo?</h3>
+                        <p class="text-left">we have a FM-DX Webserver instance running a Headless TEF Lite already! <a href="http://tef2.noobish.eu:42070" target="_blank">Try it out here</a>!</p>
+
                         <br>
                         <img src="/img/logo.png" alt="OpenRadio Logo">
                         <p>If you have any feedback (positive or negative), please let us know through our Discord server or via e-mail to founders!</p>
