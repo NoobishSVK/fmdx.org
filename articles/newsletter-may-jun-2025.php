@@ -36,7 +36,7 @@
                         <p class="text-left">When it comes to FMLIST, we broke the record barrier. The previous record stood at approximately <strong>14600 logs in a single day</strong>, the latest record is over <strong>23000 logs</strong>, which is a huge upgrade, with a considerable amoutn of logs coming from the FM-DX Webserver interface directly. Big congratulations to FMLIST!</p>
 
                         <h3 class="color-main">Headless TEF Lite</h3>
-                        <p class="text-left">We’ve released a new version of the Headless TEF—designed for regular users, with a lower price tag and greater portability.
+                        <p class="text-left">We’ve released a new version of the Headless TEF - designed for regular users, with a lower price tag and greater portability.
                         You can read more about it here: <a href="https://fmdx.org/articles/headless-tef-lite-release.php" class="color-main" target="_blank">👉 Headless TEF Lite</a></p>
 
                         <h3 class="color-main">HAM RADIO Friedrichshafen</h3>
@@ -52,7 +52,7 @@
                         <p class="text-small">Our plugin creator Highpoint, who was also helping at the booth, met one of our founders - Sjef.</p>
 
                         <h3 class="color-main">FM DX Webserver</h3>
-                        <p class="text-left">In collaboration with Adam W, Konrad Kosmatka, and AmateurAudioDude, we’re working on an optimization pack for the FM-DX Webserver, which will be released in the coming days.</p>
+                        <p class="text-left">In collaboration with <strong>Adam W, Konrad Kosmatka, and AmateurAudioDude</strong>, we’re working on an optimization pack for the FM-DX Webserver, which will be released in the coming days.</p>
                         <p class="text-left">In addition, we’ve launched two new sponsored FM-DX Webservers thanks to the financial help from the community:<br>
                         One near <strong>Náchod, Czechia</strong> Another near <strong>Galanta, Slovakia</strong>! You can find all of these servers on our server map at <a href="https://servers.fmdx.org" target="_blank" class="color-main">servers.fmdx.org</a> - these servers are labeled as "FMDX.org" servers.</p>
 
