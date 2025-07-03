@@ -41,7 +41,7 @@
 
                         <h3 class="color-main">HAM RADIO Friedrichshafen</h3>
                         <p class="text-left">
-                        Sjef from our founders team visited the <strong>HAM RADIO event in Friedrichshafen, Germany</strong>. In cooperation with <strong>FMLIST.org, we had a shared stand to showcase our projects.
+                        Sjef from our founders team visited the <strong>HAM RADIO event in Friedrichshafen, Germany</strong>. In cooperation with <strong>FMLIST.org</strong>, we had a shared stand to showcase our projects.
                         Special thanks to Günter Lorenz, Oliver Schmidt, and Highpoint for the amazing job they did in attracting interest in the open-source work we’re doing.
                         </p>
 
