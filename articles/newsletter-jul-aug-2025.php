@@ -14,7 +14,7 @@
             <div class="flex-container">
                 <main>
                     <article class="panel panel-big text-center">
-                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/um2E73Z.png');">
+                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/1bv3aLf.jpeg');">
                             <div style="width: 100%;">
                                 <h2><?php echo $pageTitle ?></h2>
                                 <p class="text-small-12 m-0">by Noobish<br>
@@ -53,7 +53,7 @@
                         <br> You can also read the article online here: <a href="https://www.radioworld.com/news-and-business/news-makers/meet-the-hobbyists-behind-todays-smartest-radios" target="_blank" class="color-main">Radio World - Meet the Hobbyists Behind Today’s Smartest Radios</a></p>
                             
 
-                        <img src="https://i.imgur.com/r0KK09P.jpeg" width="80%">
+                        <img src="https://i.imgur.com/R2cCi1a.jpeg" width="80%">
                         <p class="text-small">The radio world article headline.</p>
 
                         <h3 class="color-main">FM DX Webserver</h3>

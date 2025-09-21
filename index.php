@@ -27,7 +27,7 @@
 
 
                     <article class="panel panel-big">
-                    <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/1d7u3Ij.png');">
+                    <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/1bv3aLf.jpeg');">
                             <div style="width: 100%;">
                                 <h2>Newsletter - July & August 2025</h2>
                                 <p class="text-small-12 m-0">by Noobish & Aurie<br>
