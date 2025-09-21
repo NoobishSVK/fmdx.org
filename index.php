@@ -25,6 +25,24 @@
                         <a href="/ourmission.php"><div class="btn-small" style="width: 250px;margin: auto;text-transform: uppercase;">Our Mission</div></a>
                     </div>
 
+
+                    <article class="panel panel-big">
+                    <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/1d7u3Ij.png');">
+                            <div style="width: 100%;">
+                                <h2>Newsletter - July & August 2025</h2>
+                                <p class="text-small-12 m-0">by Noobish & Aurie<br>
+                                21st September 2025</p>
+                            </div>
+                            <div style="width: 100px;font-size:60px;" class="hide-phone">
+                            🌻
+                            </div>
+                        </div>
+                        <div style="padding: 20px 40px;">
+                            <p>It's time to wrap up the summer. So, what happened in the last 2 months? Let's check it out together.</p>
+                        </div>
+                        <a href="/articles/newsletter-jul-aug-2025.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                    </article>
+
                     <article class="panel panel-big">
                     <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/um2E73Z.png');">
                             <div style="width: 100%;">
@@ -109,23 +127,6 @@
                             <p>Hello! Long time no see, 2025 is off to a wild start and there are lots of things to cover - achievements, updates and more. Let's dive in.</p>
                         </div>
                         <a href="/articles/newsletter-jan-feb-2025.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
-                    </article>
-
-                    <article class="panel panel-big">
-                    <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/1d7u3Ij.png');">
-                            <div style="width: 100%;">
-                                <h2>Year 2024 recap & giveaway winners!</h2>
-                                <p class="text-small-12 m-0">by Noobish & Aurie<br>
-                                6th January 2025</p>
-                            </div>
-                            <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            🎊
-                            </div>
-                        </div>
-                        <div style="padding: 20px 40px;">
-                            <p>It's here, we made it through 2024. So, what did we manage to do in 2024?</p>
-                        </div>
-                        <a href="/articles/newsletter-december-2024.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
                     </article>
 
                     <button class="btn-rounded m-auto disabled" style="background-color: #333;">Read more news</button>
