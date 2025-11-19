@@ -29,15 +29,15 @@
                         <p class="text-left">Autumn's here again, and with it we got some news that we'd love to share with you!</p>
 
                         <h3 class="color-main">Headless TEF Lite SE</h3>
-                        <p class="text-left">We are very pleased to announce that we have released a new version of the Headless TEF Lite. Compared to the first edition, the SE (Second Edition) has a separate AM jack, but the performance is still as great as the first edition.
-                            This makes the Headless TEF Lite SE an affordable, yet amazing for both FM and AM DXers alike.</p>
+                        <p class="text-left">We are very pleased to announce that we have released a new version of the Headless TEF Lite. Compared to the first edition, the SE (Second Edition) has a <strong>separate AM connector</strong>, but the performance is still as great as the first edition.
+                            This makes the <strong>Headless TEF Lite SE</strong> an affordable, yet amazing for both FM and AM DXers alike.</p>
                         <p><a href="https://github.com/FMDX-org/headless-tef-lite-se" target="_blank" class="color-main">Check the Headless TEF Lite SE on GitHub 👈</a></p>
 
                         <img src="https://github.com/FMDX-org/Headless-TEF-lite-SE/raw/main/picture.png" width="80%">
                         <p class="text-small">Headless TEF Lite SE</p>
 
                         <h3 class="color-main">New sponsored server in Olešná</h3>
-                        <p class="text-left">During October, with the generous financial help of our supporters, we were able to create a webserver near the geographical centre of Czechia, in the village of Olešná, located 570m above sea level. The setup is using a Headless TEF Lite with an S-dipole, the band is very packed, yet the conditions change quite often.
+                        <p class="text-left">During October, with the generous financial help of our supporters, we were able to create a webserver near the <strong>geographical centre of Czechia</strong>, in the village of Olešná near the town of Havlíčkův Brod, located <strong>570m above sea level</strong>. The setup is using a Headless TEF Lite with an S-dipole, the band is very packed, yet the conditions change quite often.
                             We definitely recommend you to take a look, as the server is available publicly on our maps.</p>
                         <p><a href="https://olesna.fmtuner.org" target="_blank" class="color-main">Try the new webserver out 👈</a></p>
 
@@ -45,10 +45,10 @@
                         <p class="text-small">FM-DX Webserver in Olešná, Czechia (featuring an S-dipole)</p>
 
                         <h3 class="color-main">Tunnel servers</h3>
-                        <p class="text-left">Since many users use our tunneling service for hosting their webservers, as many of you need the enhanced security and/or don't have a public IP address (or you have a portable server), we have decided to regionalize our service. This means that many people outside Europe will have their pings lowered by substantial amount.
-                        In addition to the current node in Slovakia, there will be a new tunnel server located in Singapore for our users from Asia & Oceania, and a server hosted in </p>
+                        <p class="text-left">Since many users use our tunneling service for hosting their webservers, as many of you need the enhanced security and/or don't have a public IP address (or you have a portable server), <strong>we have decided to regionalize our service</strong>. This means that many people outside Europe will have their pings lowered by substantial amount.
+                        In addition to the current node in Slovakia, there will be a new tunnel server located in Singapore for our users from Asia & Oceania, and a server hosted in the east coast of the United States.</p>
 
-                        <p class="text-left">Along with this upgrade, we are also preparing a docker container that will be available for everyone for free, so people who have their own servers / public IPs can create a tunnel server on their own, and provide tokens to their friends, if they wish so. This feature will also be integrated in the webserver directly. We believe that this will bring more webservers to the map.</p>
+                        <p class="text-left">Along with this upgrade, we are also preparing a docker container that will be available <strong>for everyone for free</strong>, so people who have their own servers / public IPs can create a tunnel server on their own, and provide tokens to their friends, if they wish so. This feature will also be integrated in the webserver directly. We believe that this will bring more webservers to the map.</p>
 
                         <h3 class="color-main">FM-DX App</h3>
                         <p class="text-left">Our community OG bkram created an application called the "FM-DX App", which allows you to connect and control any webserver on your Android phone.
