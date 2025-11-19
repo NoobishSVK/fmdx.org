@@ -25,6 +25,22 @@
                         <a href="/ourmission.php"><div class="btn-small" style="width: 250px;margin: auto;text-transform: uppercase;">Our Mission</div></a>
                     </div>
 
+                    <article class="panel panel-big">
+                    <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/8qw3PN5.png');">
+                            <div style="width: 100%;">
+                                <h2>Newsletter - September & October 2025</h2>
+                                <p class="text-small-12 m-0">by Noobish<br>
+                                15th November 2025</p>
+                            </div>
+                            <div style="width: 100px;font-size:60px;" class="hide-phone">
+                            🎃
+                            </div>
+                        </div>
+                        <div style="padding: 20px 40px;">
+                            <p>Autumn's here again, and with it we got some news that we'd love to share with you!</p>
+                        </div>
+                        <a href="/articles/newsletter-sep-oct-2025.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                    </article>
 
                     <article class="panel panel-big">
                     <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/1bv3aLf.jpeg');">
@@ -110,23 +126,6 @@
                             <p>>We know you love news, and you also love keeping in touch with our projects. Here are our goals for the rest of the year 2025 and the future in general.</p>
                         </div>
                         <a href="/articles/timeline-2025.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
-                    </article>
-
-                    <article class="panel panel-big">
-                    <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/gQmwMry.jpeg');">
-                            <div style="width: 100%;">
-                                <h2>Newsletter - January & February 2025</h2>
-                                <p class="text-small-12 m-0">by Noobish <br>
-                                7th March 2025</p>
-                            </div>
-                            <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            ❄️
-                            </div>
-                        </div>
-                        <div style="padding: 20px 40px;">
-                            <p>Hello! Long time no see, 2025 is off to a wild start and there are lots of things to cover - achievements, updates and more. Let's dive in.</p>
-                        </div>
-                        <a href="/articles/newsletter-jan-feb-2025.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
                     </article>
 
                     <button class="btn-rounded m-auto disabled" style="background-color: #333;">Read more news</button>
