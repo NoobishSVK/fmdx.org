@@ -23,7 +23,7 @@
     <style>
     /* Critical CSS here */
     </style>
-    <link rel="stylesheet" href="/css/entry.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="/css/entry.css"></noscript>
+    <link rel="stylesheet" href="https://fmdx.org/css/entry.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fmdx.org/css/entry.css"></noscript>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>

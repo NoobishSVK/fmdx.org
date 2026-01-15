@@ -1,6 +1,10 @@
+<?php
+include 'includes/article-header.php'; 
+?>
 <!DOCTYPE html>
 <html lang="en">
     <?php include 'includes/header.php';?>
+    
     <body>
         <div id="wrapper">
             <?php include 'includes/navigation.php';?>
@@ -18,12 +22,14 @@
                         participate and contribute to the advancement of DXing technologies.</p>
 
                         <p>In case this is your first time here and you aren't familiar with us, DXing is the hobby of receiving and identifying distant radio or television signals.</p>
-
+ 
                         <p class="text-medium">Come join us as we work to make DXing easy, collaborative, and open for all!</p>
 
 
                         <a href="/ourmission.php"><div class="btn-small" style="width: 250px;margin: auto;text-transform: uppercase;">Our Mission</div></a>
                     </div>
+
+                    <?php draw_article_header('newsletter-nov-dec-2025'); ?>
 
                     <article class="panel panel-big">
                     <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/QiOdDC1.png');">
@@ -109,23 +115,6 @@
                             <p>It’s time to catch up on all the exciting news happening at FMDX.org! With the Sporadic-E season just around the corner, we have been busy preparing many cool updates for you.</p>
                         </div>
                         <a href="/articles/newsletter-mar-apr-2025.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
-                    </article>
-
-                    <article class="panel panel-big">
-                    <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/WJjxpVf.jpeg');">
-                            <div style="width: 100%;">
-                                <h2>Our goals & timeline for 2025</h2>
-                                <p class="text-small-12 m-0">by Noobish <br>
-                                26th April 2025</p>
-                            </div>
-                            <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            ⌚
-                            </div>
-                        </div>
-                        <div style="padding: 20px 40px;">
-                            <p>>We know you love news, and you also love keeping in touch with our projects. Here are our goals for the rest of the year 2025 and the future in general.</p>
-                        </div>
-                        <a href="/articles/timeline-2025.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
                     </article>
 
                     <button class="btn-rounded m-auto disabled" style="background-color: #333;">Read more news</button>
