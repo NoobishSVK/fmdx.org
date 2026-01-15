@@ -49,10 +49,10 @@ function draw_article_header(
         $date = strtotime($date);
     }
 
-    if (is_int($date)) {
+    /*if (is_int($date)) {
         setlocale(LC_TIME, $locale);
         $date = strftime('%e %B %Y', $date);
-    }
+    }*/
 
     ?>
     <article class="panel panel-big">
