@@ -29,7 +29,7 @@ include 'includes/article-header.php';
                         <a href="/ourmission.php"><div class="btn-small" style="width: 250px;margin: auto;text-transform: uppercase;">Our Mission</div></a>
                     </div>
 
-                    <?php draw_article_header('newsletter-nov-q1-2026'); ?>
+                    <?php draw_article_header('newsletter-q1-2026'); ?>
                     <?php draw_article_header('newsletter-nov-dec-2025'); ?>
 
                     <article class="panel panel-big">
