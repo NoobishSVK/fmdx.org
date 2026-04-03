@@ -64,20 +64,22 @@ class Article {
                 <p class="text-left">We have upgraded from an S-dipole to <strong>two 5-element antennas</strong> (various azimuth for now depending on my visits).
                      This location is fairly high up for Cezech standards at 570m ASL.</p>
 
-                <p class="text-left">Try the webserver out here: <a href="https://olesna.fmtuner.org" class="color-main" target="_blank">olesna.fmtuner.org</a></p>
+                <p>Try the webserver out here: <a href="https://olesna.fmtuner.org" class="color-main" target="_blank">olesna.fmtuner.org</a></p>
 
                 <img src="https://i.ibb.co/DfJsZdD2/image.png" width="80%">
                 <p class="text-small">A spectacular view from the roof. The antenna is very compact, but shows great DXes!</p>
 
+                <br><br>
                 <h4 class="color-main">Webserver on Klínovec, Czech/German border</h4>
                 <p class="text-left">This new webserver is located on the <strong>top of the Klínovec hill on the Czech/German border</strong>, which makes it the highest located webserver in Europe at <strong>1250m ASL</strong>!<br> 
                 The antenna is an S-dipole and the server was provided in cooperation with the COLOR DAB+ Multiplex. They provided all the cables, antenna and PC, we have sponsored a Headless TEF Lite.</p>
 
-                <p class="text-left">Try the webserver out here: <a href="https://tef-klinovec.colordab.cz" class="color-main" target="_blank">tef-klinovec.colordab.cz</a></p>
+                <p>Try the webserver out here: <a href="https://tef-klinovec.colordab.cz" class="color-main" target="_blank">tef-klinovec.colordab.cz</a></p>
 
                 <img src="https://i.ibb.co/CpsSxdt7/image.png" width="80%">
                 <p class="text-small">A view of the antennas. The DAB+ MUX antennas are very close, but the TEF is handling it!</p>
 
+                <br><br>
                 <h4 class="color-main">Webserver on Kozlov, Czechia</h4>
                 <p class="text-left">Similar situation as with Klínovec, except the location is near the transmitter "Votice/Mezivrata" at 790m ASL. 
                     The server is in preparation right now and should be online in the following days.</p>
