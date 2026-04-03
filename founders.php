@@ -68,10 +68,10 @@
 
                         <div class="flex-container flex-center" style="margin-top: 30px">
                             <div class="circle" style="width:256px;">
-                                <img src="/img/founders/ester_vlckova.jpg" alt="Ester Vlčková - Aurie" width="100%" heigth="100%" class="circle">
+                                <img src="/img/founders/ester_vlckova.jpg" alt="Vivien Vlčková - Aurie" width="100%" heigth="100%" class="circle">
                             </div>
                             <div class="m-left-10 text-left" style="width: 75%;padding-left: 25px;">
-                                <h3 class="m-0 color-main">Ester Vlčková [<span style="font-size: 20px;">🇨🇿</span>]</h3>
+                                <h3 class="m-0 color-main">Vivien Vlčková [<span style="font-size: 20px;">🇨🇿</span>]</h3>
                                 <p>Ester Vlčková, also known as <span class="color-main">Aurie</span>, is one of the founders and the community manager of OpenRadio. Passionate about radio, she actively engages with our community, sharing her catches and participating in discussions.</p>
                                 <p>She's also the one in charge of the community Discord server, ensuring that everything works properly. Her goal is to maintain an inclusive and safe environment where everyone feels welcome and valued.</p>
                                 <button class="btn-small"><i class="fas fa-envelope"></i> Contact (e-mail)</button>
