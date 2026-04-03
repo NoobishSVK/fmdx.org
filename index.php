@@ -30,7 +30,23 @@ include 'includes/article-header.php';
                     </div>
 
                     <?php draw_article_header('newsletter-q1-2026'); ?>
-                    <?php draw_article_header('newsletter-nov-dec-2025'); ?>
+                    
+                    <article class="panel panel-big">
+                    <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/o7h5qoZ.jpeg');">
+                            <div style="width: 100%;">
+                                <h2>Newsletter - November & December 2025</h2>
+                                <p class="text-small-12 m-0">by Noobish<br>
+                                15th January 2026</p>
+                            </div>
+                            <div style="width: 100px;font-size:60px;" class="hide-phone">
+                            💝
+                            </div>
+                        </div>
+                        <div style="padding: 20px 40px;">
+                            <p>It's time to wrap up 2025. Are you excited? We have achieved a lot together over the last year!</p>
+                        </div>
+                        <a href="/articles/newsletter-nov-dec-2025.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                    </article>
 
                     <article class="panel panel-big">
                     <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/QiOdDC1.png');">

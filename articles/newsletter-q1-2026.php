@@ -1,7 +1,7 @@
 <?php
 
 // Define a class to hold article info and render HTML
-class ArticleQ12026 {
+class Article {
     public $title = 'Newsletter - Q1 2026';
     public $author = 'Noobish';
     public $date = '3rd April 2026';
