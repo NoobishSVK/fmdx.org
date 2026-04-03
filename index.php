@@ -45,7 +45,7 @@ include 'includes/article-header.php';
                         <div style="padding: 20px 40px;">
                             <p>It's time to wrap up 2025. Are you excited? We have achieved a lot together over the last year!</p>
                         </div>
-                        <a href="/articles/newsletter-nov-dec-2025.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                        <a href="article.php?article=newsletter-nov-dec-2025.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
                     </article>
 
                     <article class="panel panel-big">
