@@ -45,7 +45,7 @@ class Article {
 
                 <h3 class="color-main">Achievements</h3>
                 <p class="text-left">We are slowly approaching two big milestones, and that's <strong>500 webservers and 3000 members on Discord</strong>.
-                     Both of these numbers are insane, and we would like to thenk you for being a part of the community!
+                     Both of these numbers are insane, and we would like to thank you for being a part of the community!
                      We are currently discussing a giveaway after reaching this milestone. Stay tuned!
                 </p>
 
