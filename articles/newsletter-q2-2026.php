@@ -7,7 +7,7 @@ class Article {
     public $date = '21st June 2026';
     public $emoji = '🔥';
     public $description = 'As we are approaching the middle of the year, it\'s time for a newsletter. Let\'s see what\'s new!';
-    public $cover = 'https://i.ibb.co/p7gF7YB/image-psd.png';
+    public $cover = 'https://i.ibb.co/q3qd28X6/banner.jpg';
 
     public function render() {
         ?>
