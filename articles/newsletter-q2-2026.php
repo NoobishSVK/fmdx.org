@@ -59,7 +59,7 @@ class Article {
                 <p class="text-left">This time we have managed to upgrade two webservers in total - with the latter one being brand-new!</p>
 
                 <h4 class="color-main">Webserver in Galanta, Slovakia</h4>
-                <p class="text-left">WThe first server is widely known, as about a year ago, we placed a Headless TEF Lite there along with a 5 element yagi pointing south.
+                <p class="text-left">The first server is widely known, as about a year ago, we placed a Headless TEF Lite there along with a 5 element yagi pointing south.
                      This time the yagi is pointing south-east, but most importantly, we have added a second set of <strong>vertical XmuX yagi antennas pointed towards Italy</strong> with many italian stations scattering every once in a while at 600km+ distances.</p>
 
                 <img src="https://i.ibb.co/PVv56RD/image.png" width="80%">
