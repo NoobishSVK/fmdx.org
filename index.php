@@ -29,8 +29,25 @@ include 'includes/article-header.php';
                         <a href="/ourmission.php"><div class="btn-small" style="width: 250px;margin: auto;text-transform: uppercase;">Our Mission</div></a>
                     </div>
 
-                    <?php draw_article_header('newsletter-q1-2026'); ?>
+                    <?php draw_article_header('newsletter-q2-2026'); ?>
                     
+                    <article class="panel panel-big">
+                    <div class="panel-title flex-container" style="background-image: url('https://i.ibb.co/p7gF7YB/image-psd.png');">
+                            <div style="width: 100%;">
+                                <h2>Newsletter - Q1 2026</h2>
+                                <p class="text-small-12 m-0">by Noobish<br>
+                                3rd April 2026</p>
+                            </div>
+                            <div style="width: 100px;font-size:60px;" class="hide-phone">
+                            🗼
+                            </div>
+                        </div>
+                        <div style="padding: 20px 40px;">
+                            <p>It's the first time this year for a newsletter! So much stuff has happened in 2026 so far, let's get through it together. </p>
+                        </div>
+                        <a href="article.php?article=newsletter-nov-dec-2025"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
+                    </article>
+
                     <article class="panel panel-big">
                     <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/o7h5qoZ.jpeg');">
                             <div style="width: 100%;">
