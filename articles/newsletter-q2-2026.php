@@ -43,7 +43,7 @@ class Article {
                     Feel free to check the album by clicking <a href="https://photos.noobish.eu/share/Q2SFncZjGAho7riWzDDy14Puv5RfyAZiZd_maCe0xNjx6xXPxvEy8sSsfUjg5XEH7ng" target="_blank" class="color-main">HERE</a>.
                 </p>
 
-                <img src="https://i.ibb.co/PVv56RD/image.png" width="80%">
+                <img src="https://i.ibb.co/nMcBYQ55/image.png" width="80%">
                 <p class="text-small">Our humble stand at Maker Faire - right at the entrance!</p>
 
                 <p class="text-left">
