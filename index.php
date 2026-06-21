@@ -116,24 +116,6 @@ include 'includes/article-header.php';
                         <a href="/articles/newsletter-may-jun-2025.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
                     </article>
 
-
-                    <article class="panel panel-big">
-                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/FwaPEuq.jpeg');">
-                            <div style="width: 100%;">
-                                <h2>Our new TEF release!</h2>
-                                <p class="text-small-12 m-0">by Noobish & PE5PVB<br>
-                                21st May 2025</p>
-                            </div>
-                            <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            💡
-                            </div>
-                        </div>
-                        <div style="padding: 20px 40px;">
-                            <p>We know you have been guessing what the new TEF might be. We think it's been brewed to perfection and now it's time for the TEF to see the sunlight for the first time.</p>
-                        </div>
-                        <a href="/articles/headless-tef-lite-release.php"><div class="link-external-button"><i class="fa-solid fa-chevron-right p-5"></i></div></a>
-                    </article>
-
                     <button class="btn-rounded m-auto disabled" style="background-color: #333;">Read more news</button>
                 </main> 
                 <?php include 'includes/sidepanels.php';?>
