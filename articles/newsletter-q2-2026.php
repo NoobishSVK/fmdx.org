@@ -65,7 +65,7 @@ class Article {
                 <img src="https://i.ibb.co/PVv56RD/image.png" width="80%">
                 <p class="text-small">A view of the antenna, along with cherries, yum!</p>
 
-                <p>Try the webserver out here: <a href="https://olesna.fmtuner.org" class="color-main" target="_blank">olesna.fmtuner.org</a></p>
+                <p>Try the webserver out here: <a href="https://galanta.fmtuner.org" class="color-main" target="_blank">galanta.fmtuner.org</a></p>
 
                 <br><br>
                 <h4 class="color-main">Webserver in Brno, Czechia</h4>
