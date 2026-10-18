@@ -74,8 +74,8 @@
 
 .panel-small h2 {
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 22px;
     margin: 0;
     color: var(--color-main);
     text-align: center;
