@@ -19,9 +19,11 @@ $amount = (float)($event['data']['amount'] ?? 0);
 if (preg_match('/cancel|pause/', $type) || !$amount) exit;
 if (str_contains($type, 'refund')) $amount = -$amount;
 
-file_put_contents(BMAC_LOG, json_encode([
+// 500 makes BMC retry instead of losing the payment
+$ok = @file_put_contents(BMAC_LOG, json_encode([
     'key' => $type . ':' . ($event['data']['id'] ?? $event['event_id'] ?? uniqid()),
     'amount' => $amount,
     'currency' => $event['data']['currency'] ?? '',
     'time' => time(),
 ]) . "\n", FILE_APPEND | LOCK_EX);
+if ($ok === false) http_response_code(500);
