@@ -1,9 +1,9 @@
 <?php
 $api_url = "https://servers.fmdx.org/api/";
-$response = file_get_contents($api_url);
-$data = json_decode($response, true);
-$dataset = $data['dataset'];
-$array_length = count($dataset);
+// Short timeout + no warnings: a slow/down API (or missing openssl locally) must not break the page
+$response = @file_get_contents($api_url, false, stream_context_create(['http' => ['timeout' => 3]]));
+$data = json_decode($response ?: '', true);
+$array_length = isset($data['dataset']) ? count($data['dataset']) : '?';
 
 include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/tools/bmac.php';
 ?>

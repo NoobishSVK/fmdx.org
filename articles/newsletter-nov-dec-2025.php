@@ -1,7 +1,9 @@
 <?php
+// Old direct links (/articles/x.php) redirect to the article page
+if (realpath($_SERVER['SCRIPT_FILENAME']) === __FILE__) { header('Location: /article.php?article=' . basename(__FILE__, '.php'), true, 301); exit; }
 
 // Define a class to hold article info and render HTML
-class Article {
+$article = new class {
     public $title = 'Newsletter - November & December 2025';
     public $author = 'Noobish';
     public $date = '15th January 2026';
@@ -78,6 +80,4 @@ class Article {
         </article>
         <?php
     }
-}
-
-$article = new Article();
+};

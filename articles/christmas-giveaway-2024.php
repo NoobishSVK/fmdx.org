@@ -1,31 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
 <?php
-    $pageTitle = 'Merry Christmas from FMDX.org!';
-    include($_SERVER['DOCUMENT_ROOT'].'/includes/header.php');
-    ?>
-    <body>
-        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/navigation.php');?>
-        <div id="wrapper">
-            <div class="flex-container flex-center">
-                <div class="tx-icon"></div>
-                <h1 class="m-0"><span class="color-main text-bold">FMDX.org</span> </h1>
-            </div>
-            <div class="flex-container">
-                <main>
-                    <article class="panel panel-big text-center">
-                        <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/l2XY8Qz.png');">
-                            <div style="width: 100%;">
-                                <h2>Merry Christmas from FMDX.org!</h2>
-                                <p class="text-small-12 m-0">by Noobish<br>
-                                24th December 2024</p>
-                            </div>
-                            <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            🎅
-                            </div>
-                        </div>
+// Old direct links (/articles/x.php) redirect to the article page
+if (realpath($_SERVER['SCRIPT_FILENAME']) === __FILE__) { header('Location: /article.php?article=' . basename(__FILE__, '.php'), true, 301); exit; }
 
-                        <div class="article-content">
+$article = new class {
+    public $title = 'Merry Christmas from FMDX.org!';
+    public $author = 'Noobish';
+    public $date = '24th December 2024';
+    public $emoji = '🎅';
+    public $description = '\'Tis the season of giving, and we’ve got a special treat just for you! To celebrate Christmas, we’re thrilled to announce an exciting giveaway.';
+    public $cover = 'https://i.imgur.com/l2XY8Qz.png';
+
+    public function render() {
+        ?>
+        <article class="panel panel-big text-center">
+            <div class="panel-title flex-container" style="background-image: url('<?= htmlspecialchars($this->cover) ?>');">
+                <div style="width: 100%;">
+                    <h2><?= htmlspecialchars($this->title) ?></h2>
+                    <p class="text-small-12 m-0">by <?= htmlspecialchars($this->author) ?><br>
+                    <?= htmlspecialchars($this->date) ?></p>
+                </div>
+                <div style="width: 100px;font-size:60px;" class="hide-phone">
+                <?= $this->emoji ?>
+                </div>
+            </div>
+
+            <div class="article-content">
                         <img src="https://i.imgur.com/L33fzqW.png" alt="Happy holidays! Let's make it special this year." style="width: 100%">
                         <p class="text-left">'Tis the season of giving, and we’ve got a special treat just for you! To celebrate Christmas, we’re thrilled to announce an exciting giveaway.</p>
                         
@@ -62,11 +61,7 @@
                         <p>Your donations are appreciated! ❤️</p>
                         <a href="https://buymeacoffee.com/noobish" target="_blank"><img src="https://media.licdn.com/dms/image/v2/D4D12AQF0PZYrwThrIQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1701704819869?e=2147483647&v=beta&t=6RRIU3fx8mdk_gRJLDFtFfyVo4-ny3VOHgr_B2GJgDc" width="250" alt="Buy me a coffee!"></a>
                         </div>
-                        </article>
-                </main> 
-                <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidepanels.php');?>
-            </div>
-        </div>
-        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php');?>
-    </body>
-</html>
+        </article>
+        <?php
+    }
+};

@@ -1,5 +1,6 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . '/config.php';
+$config = $_SERVER['DOCUMENT_ROOT'] . '/config.php';
+if (is_file($config)) include $config; // missing on local setups
 define('CACHE_DURATION', 3600);
 
 function fetch_data_from_api($api_key, $endpoint) {
@@ -10,6 +11,9 @@ function fetch_data_from_api($api_key, $endpoint) {
         return json_decode(file_get_contents($cache_file), true);
     }
     
+    // No key (no config.php) or no curl extension: show 0 instead of crashing
+    if (empty($api_key) || !function_exists('curl_init')) return false;
+
     // Fetch data from API
     $url = 'https://developers.buymeacoffee.com/api/v1/' . $endpoint;
     $headers = [
@@ -24,7 +28,7 @@ function fetch_data_from_api($api_key, $endpoint) {
     $response = curl_exec($ch);
 
     if ($response === false) {
-        echo 'Curl error: ' . curl_error($ch);
+        error_log('BMAC curl error: ' . curl_error($ch));
         curl_close($ch);
         return false;
     }
@@ -33,12 +37,12 @@ function fetch_data_from_api($api_key, $endpoint) {
     curl_close($ch);
 
     if ($http_code >= 400) {
-        echo "HTTP error: $http_code\nResponse: $response";
+        error_log("BMAC HTTP error: $http_code");
         return false;
     }
 
     // Save response to cache file
-    file_put_contents($cache_file, $response);
+    @file_put_contents($cache_file, $response); // cache/ may not exist locally
 
     // Decode JSON response
     return json_decode($response, true);

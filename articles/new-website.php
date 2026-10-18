@@ -1,31 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
 <?php
-    $pageTitle = 'New website launched!';
-    include($_SERVER['DOCUMENT_ROOT'].'/includes/header.php');
-    ?>
-    <body>
-        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/navigation.php');?>
-        <div id="wrapper">
-            <div class="flex-container flex-center">
-                <div class="tx-icon"></div>
-                <h1 class="m-0"><span class="color-main text-bold">FMDX.org</span> </h1>
-            </div>
-            <div class="flex-container">
-                <main>
-                <article class="panel panel-big text-center">
-                <div class="panel-title flex-container" style="background-image: url('https://i.imgur.com/zaz9auA.jpeg');">
-                            <div style="width: 100%;">
-                                <h2>New website launched!</h2>
-                                <p class="text-small-12 m-0">by Noobish<br>
-                                2nd June 2024</p>
-                            </div>
-                            <div style="width: 100px;font-size:60px;" class="hide-phone">
-                            🥳
-                            </div>
-                        </div>
+// Old direct links (/articles/x.php) redirect to the article page
+if (realpath($_SERVER['SCRIPT_FILENAME']) === __FILE__) { header('Location: /article.php?article=' . basename(__FILE__, '.php'), true, 301); exit; }
 
-                        <div class="article-content">
+$article = new class {
+    public $title = 'New website launched!';
+    public $author = 'Noobish';
+    public $date = '2nd June 2024';
+    public $emoji = '🥳';
+    public $description = 'Today is a great day! We have launched our new website. It might still undergo a lot of changes, however you won’t lose any access to the content that is already available. We’re keeping everything open!';
+    public $cover = 'https://i.imgur.com/zaz9auA.jpeg';
+
+    public function render() {
+        ?>
+        <article class="panel panel-big text-center">
+            <div class="panel-title flex-container" style="background-image: url('<?= htmlspecialchars($this->cover) ?>');">
+                <div style="width: 100%;">
+                    <h2><?= htmlspecialchars($this->title) ?></h2>
+                    <p class="text-small-12 m-0">by <?= htmlspecialchars($this->author) ?><br>
+                    <?= htmlspecialchars($this->date) ?></p>
+                </div>
+                <div style="width: 100px;font-size:60px;" class="hide-phone">
+                <?= $this->emoji ?>
+                </div>
+            </div>
+
+            <div class="article-content">
                         <p class="text-left">Today is a great day! We have launched our new website. It might still undergo a lot of changes, however you won’t lose any access to the content that is already available. We’re keeping everything open!</p>
                         <p>You can currently find comprehensive information about our projects and team members, we recommend you to explore everything!</p>
 
@@ -45,11 +44,7 @@
                         <p>Your donations are appreciated! ❤️</p>
                         <a href="https://buymeacoffee.com/noobish" target="_blank"><img src="https://media.licdn.com/dms/image/v2/D4D12AQF0PZYrwThrIQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1701704819869?e=2147483647&v=beta&t=6RRIU3fx8mdk_gRJLDFtFfyVo4-ny3VOHgr_B2GJgDc" width="250" alt="Buy me a coffee!"></a>
                         </div>
-                        </article>
-                </main> 
-                <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidepanels.php');?>
-            </div>
-        </div>
-        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php');?>
-    </body>
-</html>
+        </article>
+        <?php
+    }
+};

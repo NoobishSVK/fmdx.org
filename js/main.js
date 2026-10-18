@@ -10,4 +10,13 @@ $(document).ready(function () {
         // Close other submenus if any are open
         $('.onclick-menu-content').not(submenu).slideUp(300);
     });
+
+    // Homepage: load the next 5 articles above the button, remove it when all are shown
+    $('#more-news').on('click', function () {
+        var $btn = $(this), offset = $btn.data('offset') || 5;
+        $.get('/news.php', { offset: offset }, function (html) {
+            $btn.before(html).data('offset', offset + 5);
+            if (offset + 5 >= $btn.data('total')) $btn.remove();
+        });
+    });
 });

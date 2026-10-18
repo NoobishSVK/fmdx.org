@@ -44,16 +44,6 @@ function draw_article_header(
 
     $link = 'article.php?article=' . $slug;
 
-    // Convert date string to timestamp if needed
-    if (!empty($date) && !is_int($date)) {
-        $date = strtotime($date);
-    }
-
-    /*if (is_int($date)) {
-        setlocale(LC_TIME, $locale);
-        $date = strftime('%e %B %Y', $date);
-    }*/
-
     ?>
     <article class="panel panel-big">
         <div class="panel-title flex-container"
@@ -84,4 +74,20 @@ function draw_article_header(
     </article>
     <?php
 }
-?>
+
+// Draws headers of the newest articles (sorted by $date), skipping $offset. Returns the total article count.
+function draw_latest_articles(int $limit = 5, int $offset = 0): int {
+    $dates = [];
+    foreach (glob(__DIR__ . '/../articles/*.php') as $path) {
+        // shortcut: only new-format articles (anonymous class) are listed; convert old ones to show them
+        if (strpos(file_get_contents($path), '$article = new class') === false) continue;
+        $article = null;
+        include $path;
+        $dates[basename($path, '.php')] = strtotime($article->date ?? '') ?: 0;
+    }
+    arsort($dates);
+    foreach (array_slice(array_keys($dates), $offset, $limit) as $slug) {
+        draw_article_header($slug);
+    }
+    return count($dates);
+}
