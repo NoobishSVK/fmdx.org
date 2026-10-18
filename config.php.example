@@ -5,5 +5,5 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 
-// Your Buy Me a Coffee API Key
-$bmac_api_key = '';
+// Buy Me a Coffee webhook secret (BMC > Integrations > Webhooks)
+$bmac_webhook_secret = '';
