@@ -15,9 +15,9 @@ $event = json_decode($body, true);
 $type = $event['type'] ?? '';
 $amount = (float)($event['data']['amount'] ?? 0);
 
-// Refunds count as negative payments; other event types are ignored
-if (str_ends_with($type, '.refunded')) $amount = -$amount;
-elseif (!in_array($type, ['donation.created', 'membership.started', 'membership.updated', 'extra_purchase.created'])) exit;
+// Any event with money counts; refunds subtract, cancel/pause events carry no new payment
+if (preg_match('/cancel|pause/', $type) || !$amount) exit;
+if (str_contains($type, 'refund')) $amount = -$amount;
 
 file_put_contents(BMAC_LOG, json_encode([
     'key' => $type . ':' . ($event['data']['id'] ?? $event['event_id'] ?? uniqid()),
