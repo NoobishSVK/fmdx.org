@@ -1,2 +1,2 @@
 config.php
-cache/**data/bmac_payments.jsonl
+data/bmac_payments.jsonl
