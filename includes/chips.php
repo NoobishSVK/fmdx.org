@@ -47,8 +47,6 @@ foreach ($selected_panels as $panel) {
 echo '</div>';
 ?>
 
-<button class="btn-rounded m-auto disabled" style="background-color: #333;">Explore more!</button>
-
 <h2 class="text-center">Join our community!</h2>
 
 <a href="https://discord.gg/ZAVNdS74mC" target="_blank" style="text-decoration: none;">

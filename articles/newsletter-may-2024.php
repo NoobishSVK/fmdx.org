@@ -46,13 +46,11 @@ $article = new class {
                         <p class="text-left">• ESP32 v1 firmware is very close to stable v2.10 release, which brings many new features, better compatibility with FM-DX Webserver and bugfixes. Release candidate versions are being released almost daily, feel free to download them by joining our Discord community server.</p>
                         <p class="text-left">Other projects also got minor changes, I recommend checking #updates channel of every category to see more.</p>
                         <br>
-                        <img src="/img/logo.png" alt="OpenRadio Logo">
+                        <img src="/img/logo.png" width="100" alt="OpenRadio Logo">
                         <p>If you have any feedback (positive or negative), please let us know through our Discord server or via e-mail to founders! We will see you next month with more amazing news.</p>
                         <br>
                         <hr>
-                        <p>This article was made by <a href="/founders.php" class="text-bold color-main">Marek Farkaš (Noobish)</a>.<br>If you'd like to support the creator directly, please use the button below.</p>
-                        <p>Your donations are appreciated! ❤️</p>
-                        <a href="https://buymeacoffee.com/noobish" target="_blank"><img src="https://media.licdn.com/dms/image/v2/D4D12AQF0PZYrwThrIQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1701704819869?e=2147483647&v=beta&t=6RRIU3fx8mdk_gRJLDFtFfyVo4-ny3VOHgr_B2GJgDc" width="250" alt="Buy me a coffee!"></a>
+                        <?php $author = 'Marek Farkaš (Noobish)'; $donate = 'noobish'; include($_SERVER["DOCUMENT_ROOT"]."/includes/author.php"); ?>
                         </div>
         </article>
         <?php

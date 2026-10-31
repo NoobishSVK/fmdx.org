@@ -19,11 +19,20 @@
     <meta name="twitter:description" content="Explore the community-driven projects and solutions for FM DXing. Join us today!">
     <meta name="twitter:image" content="https://fmdx.org/img/og-image.jpg">
     
-    <link rel="icon" href="https://fmdx.org/img/favicon.png" type="image/png">
+    <link rel="icon" href="/img/favicon.png" type="image/png">
     <style>
     /* Critical CSS here */
     </style>
-    <link rel="stylesheet" href="https://fmdx.org/css/entry.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://fmdx.org/css/entry.css"></noscript>
+    <?php
+    // ?v=<file mtime> busts the browser cache whenever a stylesheet changes
+    $cssFiles = [];
+    foreach (['entry', 'main', 'navbar', 'panels', 'buttons', 'articles', 'breadcrumbs', 'helpers'] as $css) {
+        $cssFiles[] = "/css/$css.css?v=" . filemtime($_SERVER['DOCUMENT_ROOT'] . "/css/$css.css");
+    }
+    ?>
+    <?php foreach ($cssFiles as $href): ?>
+    <link rel="stylesheet" href="<?= $href ?>" media="print" onload="this.media='all'">
+    <?php endforeach; ?>
+    <noscript><?php foreach ($cssFiles as $href): ?><link rel="stylesheet" href="<?= $href ?>"><?php endforeach; ?></noscript>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>

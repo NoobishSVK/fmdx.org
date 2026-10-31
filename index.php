@@ -32,7 +32,7 @@ include 'includes/article-header.php';
                     <?php $total = draw_latest_articles(); ?>
 
                     <?php if ($total > 5): ?>
-                        <button id="more-news" class="btn-rounded m-auto" data-total="<?= $total ?>">Read more news</button>
+                        <button id="more-news" class="btn-small btn-panel" data-total="<?= $total ?>"><i class="fas fa-angles-down"></i> Read more news</button>
                     <?php endif; ?>
                 </main> 
                 <?php include 'includes/sidepanels.php';?>

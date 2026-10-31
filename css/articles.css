@@ -17,3 +17,46 @@ article h2 {
     margin: 0;
     color: white;
 }
+
+/* Easier-to-read body text; opt in per article */
+.article-prose p {
+    font-size: 17px;
+    line-height: 1.65;
+    margin: 0 0 1em;
+}
+
+.article-prose h3 {
+    margin: 2em 0 0.5em;
+}
+
+.article-prose h4 {
+    font-size: 19px;
+    margin: 1.5em 0 0.4em;
+}
+
+.article-prose .text-small {
+    font-size: 13px;
+    line-height: 1.4;
+    opacity: 0.8;
+}
+
+/* Images side by side on desktop; .flex-container already stacks them on phones */
+.article-gallery {
+    gap: 20px;
+}
+
+.article-gallery > div {
+    flex: 1;
+}
+
+.article-gallery img {
+    width: 100%;
+}
+
+/* Same height on desktop; crop instead of stretch. Phones keep natural size. */
+@media only screen and (min-width: 921px) {
+    .article-gallery img {
+        height: 300px;
+        object-fit: cover;
+    }
+}

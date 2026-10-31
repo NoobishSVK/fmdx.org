@@ -40,9 +40,7 @@ $article = new class {
                         <p class="text-left">This is a big milestone for OpenRadio / FMDX.org, we're glad you're a part of it!</p>
                         <br>
                         <hr>
-                        <p>This article was made by <a href="/founders.php" class="text-bold color-main">Marek Farkaš (Noobish)</a>.<br>If you'd like to support the creator directly, please use the button below.</p>
-                        <p>Your donations are appreciated! ❤️</p>
-                        <a href="https://buymeacoffee.com/noobish" target="_blank"><img src="https://media.licdn.com/dms/image/v2/D4D12AQF0PZYrwThrIQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1701704819869?e=2147483647&v=beta&t=6RRIU3fx8mdk_gRJLDFtFfyVo4-ny3VOHgr_B2GJgDc" width="250" alt="Buy me a coffee!"></a>
+                        <?php $author = 'Marek Farkaš (Noobish)'; $donate = 'noobish'; include($_SERVER["DOCUMENT_ROOT"]."/includes/author.php"); ?>
                         </div>
         </article>
         <?php

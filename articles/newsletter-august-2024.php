@@ -42,7 +42,7 @@ $article = new class {
                         <p class="text-left">You may have noticed a new panel with FMDX Sponsors. After the meetup in Holice, which you can read more about below this, we got in contact with the amazing guys from <strong>BBXNET</strong>.<br>
                         That means some hosting costs are covered by them, and in the near future, we should see some webservers for you to tune.</p>
 
-                        <img src="https://fmdx.org/img/bbxnet.png" width="300px">
+                        <img src="/img/bbxnet.png" width="300px">
 
                         <h3 class="color-main">International radio meetup HOLICE 2024</h3>
                         <p class="text-left">This time instead of the guys from FMLIST, Czech DXers had the opportunity to meet Sjef. We had plenty of nice interactions, where people thanked Sjef for his outstanding work in the DX community.<br>
@@ -67,13 +67,11 @@ $article = new class {
                         <h3 class="color-main">What’s coming next?</h3>
                         <p class="text-left">I believe we mentioned the most important stuff. As summer's ending, we are slowly getting back into the development habit. We can't wait to bring all of these new things to you!</p>
                         <br>
-                        <img src="/img/logo.png" alt="OpenRadio Logo">
+                        <img src="/img/logo.png" width="100" alt="OpenRadio Logo">
                         <p>If you have any feedback (positive or negative), please let us know through our Discord server or via e-mail to founders! And as per usual, see you next month.</p>
                         <br>
                         <hr>
-                        <p>This article was made by <a href="/founders.php" class="text-bold color-main">Marek Farkaš (Noobish)</a>.<br>If you'd like to support the creator directly, please use the button below.</p>
-                        <p>Your donations are appreciated! ❤️</p>
-                        <a href="https://buymeacoffee.com/noobish" target="_blank"><img src="https://media.licdn.com/dms/image/v2/D4D12AQF0PZYrwThrIQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1701704819869?e=2147483647&v=beta&t=6RRIU3fx8mdk_gRJLDFtFfyVo4-ny3VOHgr_B2GJgDc" width="250" alt="Buy me a coffee!"></a>
+                        <?php $author = 'Marek Farkaš (Noobish)'; $donate = 'noobish'; include($_SERVER["DOCUMENT_ROOT"]."/includes/author.php"); ?>
                         </div>
         </article>
         <?php

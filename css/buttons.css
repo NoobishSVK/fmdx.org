@@ -1,16 +1,21 @@
+/* Same shape as FM-DX Webserver / servers.fmdx.org: 15px radius, 48px height */
 .btn-small {
-    border-radius: 10px;
+    border-radius: 15px;
     width: auto;
-    padding: 10px 25px;
+    min-height: 48px;
+    padding: 0 25px;
     font-weight: 700;
     border: 0;
     cursor: pointer;
     font-family: inherit;
     font-size: 16px;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     background-color: var(--color-main);
     color: var(--color-bg);
-    transition: 0.35s ease filter;
+    transition: 0.3s ease filter, 0.3s ease background-color;
     text-transform: uppercase;
 }
 
@@ -18,21 +23,22 @@
     filter: brightness(120%);
 }
 
-.btn-rounded {
-    border-radius: 30px;
-    width: auto;
-    padding: 12px 35px;
-    font-weight: 700;
-    border: 0;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: 16px;
-    display: block;
-    background-color: var(--color-main);
-    color: var(--color-bg);
-    transition: 0.35s ease filter;
+.btn-small.disabled {
+    filter: none;
+    cursor: not-allowed;
 }
 
-.btn-rounded:hover {
-    filter: brightness(120%);
+/* Full-width button that looks like a panel (e.g. under the news list) */
+.btn-small.btn-panel {
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    background-color: var(--color-bg);
+    color: var(--color-main);
+    backdrop-filter: blur(5px);
+}
+
+.btn-small.btn-panel:hover {
+    filter: none;
+    background-color: var(--color-main-dark);
 }

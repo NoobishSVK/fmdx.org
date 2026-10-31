@@ -57,9 +57,7 @@
 
                         <br>
                         <hr>
-                        <p>This project was created by <a href="/founders.php" class="text-bold color-main">FMDX.org / OpenRadio</a></p>.
-                        <a href="https://buymeacoffee.com/fmdx" target="_blank"><img src="https://media.licdn.com/dms/image/v2/D4D12AQF0PZYrwThrIQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1701704819869?e=2147483647&v=beta&t=6RRIU3fx8mdk_gRJLDFtFfyVo4-ny3VOHgr_B2GJgDc" width="250" alt="Buy me a coffee!"></a>
-                        <p>Your donations are appreciated! ❤️</p>
+                        <?php $author = 'FMDX.org / OpenRadio'; $donate = 'fmdx'; include($_SERVER["DOCUMENT_ROOT"]."/includes/author.php"); ?>
                     </div>
                 </main> 
                 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidepanels.php');?>

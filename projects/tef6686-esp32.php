@@ -33,9 +33,7 @@
                         <a href="https://www.pe5pvb.nl/tef6686/" target="_blank">More info & hardware schemas</a>
                         <br>
                         <hr>
-                        <p>This project was created by <a href="/founders.php" class="text-bold color-main">Sjef Verhoeven (PE5PVB)</a>.<br>If you'd like to support the creator directly, please use the button below.</p>
-                        <p>Your donations are appreciated! ❤️</p>
-                        <a href="https://buymeacoffee.com/pe5pvb" target="_blank"><img src="https://camo.githubusercontent.com/52867c19b7dfad6776f2d60ae248692873ae6bdcb9a3df2bfca2f1f2ffdfd15d/68747470733a2f2f63646e2e6275796d6561636f666665652e636f6d2f627574746f6e732f76322f64656661756c742d626c75652e706e67" width="250" alt="Buy me a coffee!"></a>
+                        <?php $author = 'Sjef Verhoeven (PE5PVB)'; $donate = 'pe5pvb'; include($_SERVER["DOCUMENT_ROOT"]."/includes/author.php"); ?>
                     </div>
                 </main> 
                 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidepanels.php');?>
